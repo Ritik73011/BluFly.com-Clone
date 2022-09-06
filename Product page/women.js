@@ -291,67 +291,20 @@ function myPage(elem){
 
 
 
+var  collect = document.getElementsByClassName("collection")
+
+collect[0].addEventListener("click", function(){
+
+    var option= document.getElementsByClassName("options");
 
 
-
-
-// var GetData=document.getElementsByClassName("product_box")
-
-
-//  Array.from(GetData).forEach(element => {
-//     element.addEventListener("click", myPage )
-    
-//   function myPage() {
-
-//     event.preventDefault();
-
-//     var Arr=[];
-
-//     var obj = { 
-
-//        
-
-
-//         // "pro_img":
-//         // "brand_name" : 
-//         // "name" : 
-//         // "price ": elem.price,
-//         // "sp_price": elem.strikedoffprice
-
-    
-
-//    }
-
-        
-//         Arr.push(obj);
-          
-//         localStorage.setItem("data" , JSON.stringify(Arr) );
-
-
-// }
-// });
-// });
-
-
-  
-// var opt = document.getElementsByClassName("options")
-// var collection = document.getElementsByClassName("collections")
-
-// function hide(collection){
-//     for(var i=0; i<opt.length; i++){
-//      if(opt[i].style.display=="none"){
-//         opt[i].style.display = "block";
-//     }
-//     else{
-//         opt[i].style.display = "none"
-      
-//     }
-
-//     }
-  
-//  }
-
-
+    if(option[0].style.display = "none"){
+       option[0].style.display = "block"
+    }
+    else{
+        option[0].style.display = "none"
+    }
+})
 
 
 

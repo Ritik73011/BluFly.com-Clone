@@ -57,7 +57,7 @@ h4+ div {
     display:flex;
     justify-content: space-around;
     width: 100%;
-
+     margin-top: -20px;
     /* margin-top: -20px; */
     margin-bottom: 10px;
 }
@@ -86,7 +86,11 @@ h4+ div {
 }
 #Product div h4{
     margin-top: -20px;
-    color: #67b8e3;
+    color: #0288d1;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+
 }
 .price_line{
     text-decoration: line-through;
@@ -101,7 +105,20 @@ h4+ div {
     font-style: italic;
     text-transform: capitalize;
 }
+.snize-product-filters-close{
+    display: inline-block;
+    position: relative;
+    margin-right: 9px;
+    width: 9px;
+    height: 10px;
+    vertical-align: middle;
+    background-size: 9px 10px
+px
+;
+    background-repeat: no-repeat;
+    background-image: url(https://s3.amazonaws.com/static.searchanise.com/snize-product-filters-close.png);
 
+}
 
 
 
