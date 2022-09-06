@@ -11,8 +11,8 @@
    <div id="main">
 
      <div class="smallImg">
-        <img id="img1" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_1_360x.jpg?v=1661903598" alt=""/><br/>
-        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_2_360x.jpg?v=1661903599" alt=""/><br/>
+        <img class="img1" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_1_360x.jpg?v=1661903598" alt=""/><br/>
+        <img class ="img2" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_2_360x.jpg?v=1661903599" alt=""/><br/>
         <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/vince_women_apparel8192_e34bdf9b-b911-426b-a99a-94fa9b91f404_360x.png?v=1661903600" alt=""/><br/>
      </div>
 
@@ -213,7 +213,7 @@
     document.getElementById("image").setAttribute("src",cart[i].img);
    }
 
-    var img=document.getElementById("img1").src;
+    var img=document.getElementsByClassName("img1").src;
     document.getElementById("img1").addEventListener("click",function(){
     document.getElementById("image").setAttribute("src",img);
    });
