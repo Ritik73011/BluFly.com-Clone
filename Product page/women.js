@@ -1,3 +1,13 @@
+
+ 
+
+
+
+    
+  
+
+ 
+ 
  var WomenProduct=[
     {
         id:1,
@@ -29,7 +39,7 @@
     image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411212007_RLLZ_1_1800x1800.jpg?v=1662171766",
 
     image2:
-    "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411212007_RLLZ_2_large.jpg?v=1662171768",
+    "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411212007_RLLZ_2_846b9300-45dd-4f79-a95e-248b1b8cfa28_360x.jpg?v=1662478212",
 
      brandname:"EMPORIO ARMANI",
      name: "WOMENS RUFFLED FULL LENGTH EVENING DRESS",
@@ -105,8 +115,8 @@
 
     {
         id:9,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_1_88efb6a8-7dc8-4e02-86e5-d4ed7f00175b_360x.jpg?v=1662165768",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_2_large.jpg?v=1662165770",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_1_360x.jpg?v=1662472180",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_2_360x.jpg?v=1662472181",
         brandname:"VINCE",
         name:"VINCE PANELED SLIP DRESS",
         price:"179",
@@ -129,7 +139,7 @@
 
     {
         id:11,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411385099_RLLZ_1_360x.jpg?v=1662131262",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411385099_RLLZ_1_66358791-c7f9-484b-83c9-db338cf58174_360x.jpg?v=1662423412",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411385099_RLLZ_2_360x.jpg?v=1662131264",
         brandname:"A.L.C.",
         name:"A.L.C. GWEN MIDI DRESS",
@@ -141,7 +151,7 @@
 
     {
         id:12,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_1_88efb6a8-7dc8-4e02-86e5-d4ed7f00175b_360x.jpg?v=1662165768",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_1_360x.jpg?v=1662472180",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_2_360x.jpg?v=1662165770",
         brandname:"VINCE",
         name:"VINCE PANELED SLIP DRESS",
@@ -153,8 +163,8 @@
 
     {
         id:13,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452350202_RLLZ_1_360x.jpg?v=1662163599",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452350202_RLLZ_2_360x.jpg?v=1662163608",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452261197_RLLZ_1_360x.jpg?v=1662272289",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452261197_RLLZ_2_360x.jpg?v=1662272290",
         brandname:"AIDAN MATTOX",
         name: "AIDAN MATTOX BEADED GOWN",
         price:"166",
@@ -190,8 +200,56 @@
     
 ];
 
+var MenProduct=[
+    {
+        id:1,
+    image_url:
+    "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411597041_RLLZ_1_1800x1800.jpg?v=1661961131",
 
-  WomenProduct.map(function(elem) { 
+    image2: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411597041_RLLZ_2_360x.jpg?v=1661961133",
+     brandname: "EMPORIO ARMANI",
+     name: "EMPORIO ARMANI LACE MIDI DRESS",
+     price: 331,
+     strikedoffprice: 1495,
+     save: "78" ,
+
+    }];
+
+displayData(WomenProduct)
+
+function handleFilter(){
+
+    var nameOrder=document.getElementById("BestSelling").value;
+    if (nameOrder==="ascending") {
+        WomenProduct.sort(function (a,b) {     
+         
+            if(a.brandname > b.brandname) {
+                return 1 ;
+            }
+            if(a.brandname < b.brandname) {
+                return -1;
+            }
+            return 0;
+        });
+         displayData(MenProduct);
+        displayData(WomenProduct)
+        console.log(WomenProduct)
+    }
+  
+   
+    
+};
+     
+
+
+
+    
+function displayData(data){
+
+
+
+  data.map(function(elem) { 
+   
 
     var divs=document.createElement("div");
     divs.setAttribute("class", "product_box")
@@ -222,6 +280,7 @@
     var h5=document.createElement("h5");
     h5.innerText=elem.brandname;
     h5.setAttribute("Id","brand_Name");
+    h5.setAttribute("class", "brandName")
 
     var h4=document.createElement("h4");
     h4.innerText=elem.name;
@@ -247,27 +306,18 @@
     var Product =  document.getElementById("Product")
     Product.append(divs);
     document.querySelector("#Parent").append(Product);
+    
+    
 
 
     divs.addEventListener("click",function(){
 
         myPage(elem)
-
-    
-
-
-            
-
-        
-
         
     });
 });
 
-
-
-
-// WomenProduct.map(function(elem) { 
+}
 
 
     var Arr=[];
@@ -289,22 +339,6 @@ function myPage(elem){
     Arr=[];
 }
 
-
-
-var  collect = document.getElementsByClassName("collection")
-
-collect[0].addEventListener("click", function(){
-
-    var option= document.getElementsByClassName("options");
-
-
-    if(option[0].style.display = "none"){
-       option[0].style.display = "block"
-    }
-    else{
-        option[0].style.display = "none"
-    }
-})
 
 
 

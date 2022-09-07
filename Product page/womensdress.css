@@ -31,14 +31,43 @@
     margin-top: -20px;
     margin-left: 5px;
     padding:5px;
+    line-height: 1.6;
 
     
+}
+
+label:hover {
+    color:#0288d1;
+
 }
 
 .category {
     border: 1px solid whitesmoke;
     height:auto;
     width:100%;
+    
+}
+
+#select {
+    text-align: end;
+    margin-bottom: 15px;
+    margin-right: 220px; 
+    border: none;
+   
+    
+
+}
+
+#BestSelling {
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding :2px;
+    
+    
+    
+    
+
 }
 
 
