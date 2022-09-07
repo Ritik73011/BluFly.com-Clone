@@ -45,13 +45,17 @@
     color: red;
 }
 .details > p{
-    font-size: 18px;
+    font-size: 16px;
+    font-family: sans-serif;
 }
 .details h1{
     margin-top: -16px;
 }
 #color{
+margin-top: 0px;
 color: red;
+font-size: 24px;
+font-family: sans-serif;
 }
 .details h2{
     margin-top: -6px;
@@ -104,6 +108,7 @@ color: red;
     color: white;
     background-color: black;
     cursor: pointer;
+    font-family: sans-serif;
 }
 #addCart:hover{
 background-color: rgb(51, 48, 48);
@@ -126,7 +131,9 @@ ul >li{
     width: 100%;
     text-align: center;
 }
-
+#extraProduct h2{
+    font-family: sans-serif;
+}
 .grid{
     margin-top: 50px;
     display: grid;
@@ -147,6 +154,7 @@ ul >li{
 .grid >div .priceDiv >p{
     font-size: 14px;
     text-align: center;
+    font-family: sans-serif;
 }
 
 #others{
