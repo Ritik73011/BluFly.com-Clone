@@ -1,13 +1,4 @@
 
- 
-
-
-
-    
-  
-
- 
- 
  var WomenProduct=[
     {
         id:1,
@@ -16,10 +7,10 @@
 
     image2: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411597041_RLLZ_2_360x.jpg?v=1661961133",
      brandname: "EMPORIO ARMANI",
-     name: "EMPORIO ARMANI LACE MIDI DRESS",
+     name: "WOMEN'S VACATION DRESSES",
      price: 331,
      strikedoffprice: 1495,
-     save: "78" ,
+     save: "save 78" ,
 
     },
 
@@ -28,10 +19,10 @@
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411962836_RLLZ_1_1800x1800.jpg?v=1662109478",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411962836_RLLZ_2_large.jpg?v=1662109479",
         brandname:"EMPORIO ARMANI",
-        name:"EMPORIO ARMANI SHIFT DRESS",
+        name:"WOMEN'S VACATION DRESSES",
         price: 199 ,
         strikedoffprice: 1295,
-        save: 85,
+        save: "Save 60",
 
     },
     {
@@ -72,7 +63,7 @@
 
         brandname: "BCBGMAXAZRIA",
         name: "VIOLET WOMENS METALLIC PLEATED EVENING DRESS",
-        price: "173",
+        price: 173,
         strikedoffprice: "448",
         save: "Save 61",
 
@@ -83,8 +74,8 @@
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_1_360x.jpg?v=1662341157",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_2_360x.jpg?v=1662341160",
         brandname: "SACHIN  BABI",
-        name: "SACHIN + BABI HANNAH GOWN",
-        price:"298.00",
+        name: "WOMEN'S COCKTAIL PARTY  DRESSES",
+        price: 298.00,
         strikedoffprice:"895",
         save:"Save 67",
 
@@ -96,7 +87,7 @@
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/u41N8g1fzPGKwqzKrNqk5jEzWjkpgWKI-25_large.jpg?v=1662028538",
         brandname: "BCBGMAXAZRIA",
         name: "WOMENS RUFFLED CORSET EVENING DRESS",
-        price:"498",
+        price:498,
         strikedoffprice: "600",
         save:"Save 37",
 
@@ -107,7 +98,7 @@
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411554818_RLLZ_2_360x.jpg?v=1661987409",
         brandname: "JOHNNY WAS",
         name: "JOHNNY WAS DORIS SILK",
-        price:"199",
+        price:199,
         strikedoffprice:"365.00",
         save:"Save 45",
 
@@ -118,8 +109,8 @@
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_1_360x.jpg?v=1662472180",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_2_360x.jpg?v=1662472181",
         brandname:"VINCE",
-        name:"VINCE PANELED SLIP DRESS",
-        price:"179",
+        name:"WOMEN'S VACATION DRESSES",
+        price:179,
         strikedoffprice:"445",
         save:"Save 60",
 
@@ -130,8 +121,8 @@
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452173629_RLLZ_1_360x.jpg?v=1661744168",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452173629_RLLZ_2_360x.jpg?v=1661744169",
         brandname:"HERVE LEGER",
-        name: "HERVE LEGER FRINGE SHEATH DRESS",
-        price:"899",
+        name: "WOMEN'S COCKTAIL PARTY  DRESSES",
+        price:899,
         strikedoffprice:"1,990",
         save:"Save 55",
 
@@ -143,7 +134,7 @@
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411385099_RLLZ_2_360x.jpg?v=1662131264",
         brandname:"A.L.C.",
         name:"A.L.C. GWEN MIDI DRESS",
-        price:"199",
+        price:199,
         strikedoffprice:"695",
         save:"Save 71",
 
@@ -155,7 +146,7 @@
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_2_360x.jpg?v=1662165770",
         brandname:"VINCE",
         name:"VINCE PANELED SLIP DRESS",
-        price:"179",
+        price:179,
         strikedoffprice:"445",
         save:"Save 60",
     },
@@ -166,8 +157,8 @@
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452261197_RLLZ_1_360x.jpg?v=1662272289",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452261197_RLLZ_2_360x.jpg?v=1662272290",
         brandname:"AIDAN MATTOX",
-        name: "AIDAN MATTOX BEADED GOWN",
-        price:"166",
+        name: "WOMEN'S COCKTAIL PARTY  DRESSES",
+        price:166,
         strikedoffprice:"550",
         save:"Save 70",
 
@@ -180,7 +171,7 @@
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/cUnVp3LxOn9V8j4NESwUuKmyWJZeR8il-25_360x.jpg?v=1661833852",
         brandname: "AIDAN BY AIDAN MATTOX",
         name:"WOMENS SUMMER KIMONO SLEEVE MINI DRESS",
-        price:"33",
+        price:33,
         strikedoffprice:"175",
         save:"Save 81 ",
 
@@ -192,7 +183,7 @@
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/OcLDmVZlWnnGnvG0Ea3vfNopMLoVMXqs-25_360x.jpg?v=1662360676",
         brandname:"AIDAN MATTOX",
         name:"AIDAN MATTOX WOMENS OFF-THE-SHOULDER",
-        price:"169",
+        price:169,
         strikedoffprice:"395",
         save:"Save 57",
 
@@ -200,52 +191,216 @@
     
 ];
 
-var MenProduct=[
-    {
-        id:1,
-    image_url:
-    "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411597041_RLLZ_1_1800x1800.jpg?v=1661961131",
 
-    image2: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411597041_RLLZ_2_360x.jpg?v=1661961133",
-     brandname: "EMPORIO ARMANI",
-     name: "EMPORIO ARMANI LACE MIDI DRESS",
-     price: 331,
-     strikedoffprice: 1495,
-     save: "78" ,
 
-    }];
-
-displayData(WomenProduct)
+ displayData(WomenProduct)
 
 function handleFilter(){
 
     var nameOrder=document.getElementById("BestSelling").value;
-    if (nameOrder==="ascending") {
-        WomenProduct.sort(function (a,b) {     
-         
-            if(a.brandname > b.brandname) {
+        if (nameOrder==="ascending") {
+            WomenProduct.sort(function (a,b) {     
+        if(a.brandname > b.brandname) {
                 return 1 ;
             }
-            if(a.brandname < b.brandname) {
+        if(a.brandname < b.brandname) {
                 return -1;
-            }
+             } 
+            
             return 0;
         });
-         displayData(MenProduct);
+
+    }
+    if (nameOrder==="dscending") {
+        WomenProduct.sort(function (a,b) {    
+
+       if(a.brandname > b.brandname) {
+             return -1 ;
+         }
+      if(a.brandname < b.brandname) {
+              return 1;
+         } 
+
+          return 0;
+});
+
+}
+if (nameOrder==="highToLow") {
+    WomenProduct.sort(function (a,b) {    
+
+    return b.price-a.price;
+});
+
+}
+
+if (nameOrder==="low to high") {
+    WomenProduct.sort(function (a,b) {    
+
+    return a.price-b.price;
+});
+
+}
+
         displayData(WomenProduct)
         console.log(WomenProduct)
     }
-  
-   
-    
-};
+
+
+    function Price199(){
+        var checkbox = document.getElementById("199")
+      var filterData =   WomenProduct.filter(function (elem){
+        console.log(checkbox.checked)
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 199
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+    function Price164(){
+        var checkbox = document.getElementById("164")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 164
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+    function Price179(){
+        var checkbox = document.getElementById("179")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 179
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function Armani(){
+        var checkbox = document.getElementById("Armanif")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.brandname === "EMPORIO ARMANI"
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function vince(){
+        var checkbox = document.getElementById("vince")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.brandname === "VINCE"
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function bb(){
+        var checkbox = document.getElementById("bb")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.brandname === "BCBGMAXAZRIA";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function Am(){
+        var checkbox = document.getElementById("Am")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.brandname === "AIDAN MATTOX";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+
+    function vacation(){
+        var checkbox = document.getElementById("vacation")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "WOMEN'S VACATION DRESSES";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function cocktail(){
+        var checkbox = document.getElementById("cocktail")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "WOMEN'S COCKTAIL PARTY  DRESSES";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+
+
+
+
      
 
 
 
     
 function displayData(data){
-
+document.getElementById("Product").innerText = ""
 
 
   data.map(function(elem) { 
@@ -295,6 +450,7 @@ function displayData(data){
      
     var sp=document.createElement("p");
     sp.innerText="$"+elem.strikedoffprice +".99";
+    sp.setAttribute("class","sp_line");
 
     var save=document.createElement("p");
     save.innerText=elem.save+"%";

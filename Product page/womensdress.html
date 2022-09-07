@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 <link rel="stylesheet" href="womensdress.css">
 <body>
   
@@ -14,9 +15,10 @@
 
   <div id="select">
     <select id="BestSelling" onchange="handleFilter()">
-      <option value="all" >Best</option>
+      <option value="all" >BestSelling</option>
       <option value="ascending">TITLE:A TO Z</option>
-      <option value="high to low">PRICE:HIGH TO LOW</option>
+      <option value="dscending">TITLE:Z TO A</option>
+      <option value="highToLow">PRICE:HIGH TO LOW</option>
       <option value="low to high">PRICE:LOW TO HIGH</option>
   
       </select>
@@ -28,38 +30,43 @@
      
         <div id="Filter">
                <div class="category">
+            
 
-              <h3 class="collection"> ^Collection</h3>
+               
+              <h3 class="collection"> <i class="fi fi-sr-angle-small-up"></i>Collection </h3>
               <div class="options">
                 <input type="checkbox" >
                 <label>Womens</label>
                 <br>
                 <input type="checkbox">
                 <label>Shop All</label>
+              </div> 
               </div>
-
+                
               <div class="category">
-              <h3  class="collection"> ^ Category</h3>
+               
+              <h3  class="collection"><i class="fi fi-sr-angle-small-up"></i> Category</h3>
               <div class="options">
-                <input type="checkbox" >
+                <input type="checkbox"  >
                 <label>Dresses</label>
                 <br>
               </div>
-              </div>
+            </div>
+        
 
 
 
               <div class="category">
-                <h3  class="collection"> ^PRICE</h3>
+                <h3  class="collection"> <i class="fi fi-sr-angle-small-up"></i>PRICE</h3>
                 <div class="options">
-                  <input type="checkbox" >
-                  <label>$99</label><br>
+                  <input type="checkbox" id="164" onclick="Price164()" >
+                  <label>$164</label><br>
 
-                  <input type="checkbox" >
-                  <label>$200</label><br>
+                  <input type="checkbox" id="179" onclick="Price179()" >
+                  <label>$179</label><br>
 
-                  <input type="checkbox" >
-                  <label>$250</label><br>
+                  <input type="checkbox"  id="199" onclick="Price199()">
+                  <label>$199</label><br>
 
                   <input type="checkbox" >
                   <label>$350</label><br>
@@ -74,40 +81,40 @@
 
 
                 <div class="category">
-                  <h3  class="collection"> ^BRAND</h3>
+                  <h3  class="collection"> <i class="fi fi-sr-angle-small-up"></i>BRAND</h3>
                   <div class="options">
-                    <input type="checkbox" >
-                    <label>Adrianna Papell</label><br>
+                    <input type="checkbox"  id="Am" onclick="Am()" >
+                    <label>AIDAN MATTOX</label><br>
 
-                    <input type="checkbox" >
-                    <label>Adrianna Papell</label><br>
+                    <input type="checkbox" id="bb" onclick="bb()" >
+                    <label>BCBGMAXAZRIA</label><br>
 
-                    <input type="checkbox" >
-                    <label>Armani</label><br>
+                    <input type="checkbox" id="Armanif" onclick="Armani()"  >
+                    <label> EMPORIO ARMANI </label><br>
 
-                    <input type="checkbox" >
-                    <label>Balenciaga</label><br>
+                    <input type="checkbox"  id="vince" onclick="vince()">
+                    <label>VINCE</label><br>
                     
                   </div>
                   </div>
 
               
               <div class="category">
-                <h3  class="collection"> ^ Subcategory</h3>
+                <h3  class="collection"> <i class="fi fi-sr-angle-small-up"></i>Subcategory</h3>
                 <div class="options">
-                  <input type="checkbox" >
-                  <label>WOMEN"S COCKTAIL PARTY 
-                    DRESSES</label><br>
+                  <input type="checkbox" id="cocktail" onclick="cocktail()" >
+                  <label>WOMEN'S COCKTAIL PARTY  DRESSES
+                   </label><br>
 
                     <input type="checkbox" >
-                  <label>WOMEN"S DAY  DRESSES</label><br>
+                  <label>WOMEN'S DAY  DRESSES</label><br>
 
                   <input type="checkbox" >
-                  <label>WOMEN"S FORMAL PARTY 
+                  <label>WOMEN'S FORMAL PARTY 
                     DRESSES</label><br>
 
-                    <input type="checkbox" >
-                  <label>WOMEN"S VACATION DRESSES</label><br>
+                    <input type="checkbox" id="vacation" onclick="vacation()" >
+                  <label>WOMEN'S VACATION DRESSES</label><br>
                   
                 </div>
                 </div>

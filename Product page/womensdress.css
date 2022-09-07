@@ -6,7 +6,7 @@
 
 #Parent{
     /* display: inline-flex; */
-    width: 70%;
+    width: 75%;
     margin-left: 15%;
     /* border: 1px solid black; */
     display: inline-flex;
@@ -23,6 +23,7 @@
     margin-top: 8px;
     padding: 5px;
     margin-left: 5px;
+    /* color: */
     
 }
 
@@ -32,12 +33,14 @@
     margin-left: 5px;
     padding:5px;
     line-height: 1.6;
+   color: gray
 
     
 }
 
 label:hover {
     color:#0288d1;
+    /* background-color: gray; */
 
 }
 
@@ -51,11 +54,14 @@ label:hover {
 #select {
     text-align: end;
     margin-bottom: 15px;
-    margin-right: 220px; 
+    margin-right: 10%; 
     border: none;
    
     
 
+}
+.category:hover {
+    background-color: rgb(238, 236, 236);
 }
 
 #BestSelling {
@@ -63,10 +69,7 @@ label:hover {
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 5px;
     padding :2px;
-    
-    
-    
-    
+    /* margin-right: 10px; */ 
 
 }
 
@@ -80,6 +83,20 @@ label:hover {
     /* border:1px solid crimson; */
 
 } 
+
+
+@media only screen and (min-width: 421px) and (max-width: 720px) { 
+    #Product{
+       
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 420px) { 
+    #Product {
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+}
 
 
 h4+ div {
@@ -121,7 +138,7 @@ h4+ div {
     text-align: center;
 
 }
-.price_line{
+.sp_line{
     text-decoration: line-through;
 
 }
