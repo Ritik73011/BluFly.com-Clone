@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-between;
     gap: 24px;
-}
 
+}
 
 .smallImg{
     width: 8%;
@@ -131,6 +131,7 @@ ul >li{
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
+    margin: 0 8px;
 }
 .grid > div img{
     width: 100%;
@@ -150,7 +151,8 @@ ul >li{
 
 #others{
     margin-top: 50px;
-    width: 100%;
+    width: 97%;
+    margin: auto;
    
 }
 .grid2{
@@ -184,7 +186,13 @@ width: 100%;
     display: none;
 }
 
+.grid > div:hover{
+    cursor: pointer;
+}
 
+.grid2 > div img,button:hover{
+    cursor: pointer;
+}
 
 @media all and (min-width: 0px) and (max-width: 768px) 
 {
@@ -230,5 +238,9 @@ width: 100%;
 
     #others .grid2{
         grid-template-columns: repeat(1,1fr);
+    }
+    #addCart{
+        width: 98%;
+        margin: auto;
     }
 }
