@@ -1,0 +1,254 @@
+#main{
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.smallImg{
+    width: 8%;
+}
+.bigImg{
+    width: 50%;
+}
+.details{
+    width: 35%;
+}
+.smallImg img{
+    height: 95px;
+    width: 76px;
+    padding: 10px;
+    cursor: pointer;
+}
+.smallImg,.bigImg,.details{
+    margin-top: 50px;
+    
+}
+.bigImg img{
+    width: 100%;
+}
+
+.details .priceDiv{
+    display: flex;
+    gap: 10px;
+    margin-top: -32px;
+}
+.priceDiv > p{ 
+    font-size: 20px;
+}
+#sprice{ 
+   text-decoration:line-through;
+}
+.priceDiv>p+p+p{
+    color: red;
+}
+.details > p{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.details h1{
+    margin-top: -16px;
+}
+#color{
+margin-top: 0px;
+color: red;
+font-size: 24px;
+font-family: sans-serif;
+}
+.details h2{
+    margin-top: -6px;
+}
+.details > p{
+    margin-top: -12px;
+}
+.line{
+
+ height: 1px;
+ background-color: rgb(228, 221, 221);
+ margin-top: 32px;
+ margin-bottom: 32px;
+}
+
+.sizeGuide{
+    margin-top: -12px;
+    font-size: 13px;
+}
+
+.sizeBox > label{
+    margin-left: 8px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(228, 221, 221);
+    padding: 6px;
+}
+.sizeBox > input{
+    margin-left: 8px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+.colorDiv >p{
+    font-size: 14px;
+    margin-top: 24px;
+}
+.colorDiv > img{
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+#addCart{
+    width: 100%;
+    border: none;
+    margin-top: 24px;
+    padding: 16px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+#addCart:hover{
+background-color: rgb(51, 48, 48);
+}
+.productDetails{
+    margin-top: 32px;
+}
+.productDetails > p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 8px;
+}
+ul >li{
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 6px;
+}
+#extraProduct{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+}
+#extraProduct h2{
+    font-family: sans-serif;
+}
+.grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 0 8px;
+}
+.grid > div img{
+    width: 100%;
+}
+
+.grid > div .priceDiv{
+    display: flex;
+    gap: 10px;
+    margin-top: -24px;
+    justify-content: center;
+}
+
+.grid >div .priceDiv >p{
+    font-size: 14px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#others{
+    margin-top: 50px;
+    width: 97%;
+    margin: auto;
+   
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 10px;
+}
+.grid2  img{
+width: 100%;
+}
+
+.grid2 button{
+  border:1px solid rgb(228, 221, 221);
+  padding: 8px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+#sellerName{
+    font-size: 20px;
+    font-family:Futura,sans-serif;
+}
+#productName{
+    font-size: 30px;
+    font-family: serif;
+    font-style: Tiemann,serif;
+}
+
+#main .mobileImg{
+    display: none;
+}
+
+.grid > div:hover{
+    cursor: pointer;
+}
+
+.grid2 > div img,button:hover{
+    cursor: pointer;
+}
+
+@media all and (min-width: 0px) and (max-width: 768px) 
+{
+   #main .smallImg{
+    display: none;
+   }
+    #main{
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+        width: 100%;
+        margin: auto;
+    }
+    #main .mobileImg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+    #main .mobileImg img{
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        cursor: pointer;
+    }
+    #main .bigImg{
+        width: 100%;
+    }
+    #main .details{
+        width: 100%;
+        text-align: center;
+    }
+
+    .priceDiv{
+        justify-content: center;
+    }
+    .productDetails{
+        text-align: left;
+    }
+
+    #extraProduct .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #others .grid2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    #addCart{
+        width: 98%;
+        margin: auto;
+    }
+}
