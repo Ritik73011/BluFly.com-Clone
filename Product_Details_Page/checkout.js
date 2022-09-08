@@ -132,7 +132,6 @@
             alert("enter number");
         }
         else{
-            alert("success");
-            location.href="";
+            location.href="payment.html";
         }
     });
