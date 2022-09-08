@@ -34,8 +34,8 @@ document.getElementById("pay").addEventListener("click",function(){
 
         if(cardNumber==="123456789" && expYear==="2024-05-02" && cvv==="000"){
             storeOrderHistory();
-            alert("order successfully placed")
-            //location.href="";
+            alert("Thanku For Shopping")
+           window.location.href="";
         }
         else{
             alert("wrong details");
