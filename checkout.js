@@ -21,6 +21,8 @@
 
             var str =  elem.pPrice.replace('$', '');
             array.push(str);
+
+           
         });
 
 
@@ -132,6 +134,7 @@
             alert("enter number");
         }
         else{
+
             location.href="payment.html";
         }
     });
