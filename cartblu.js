@@ -1,4 +1,5 @@
-var cart2= JSON.parse(localStorage.getItem("cartData")) || [];
+
+    var cart2= JSON.parse(localStorage.getItem("cartData")) || [];
 
     var cartBlock = document.getElementById("cartBlock");
 
