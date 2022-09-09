@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="details.css"/>
     
 <body>
+  <div id="upHeader">
+
+  </div>
    <div id="main">
 
      <div class="smallImg">
@@ -200,6 +203,22 @@
   
    </div>
   </div>
+
+  <div id="footer"></div>
 </body>
 </html>
 <script src="details.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+   
+   $('#footer').load("footer.html");
+
+});
+  $(document).ready(function(){
+   
+   $('#upHeader').load("navbar.html");
+
+});
+
+</script>
