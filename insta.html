@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="other.css"/>
+</head>
+<style>
+
+
+#others{
+margin-top: 32px;
+width: 96%;
+margin: auto;
+
+}
+.grid2{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+text-align: center;
+gap: 10px;
+}
+.grid2  img{
+width: 100%;
+height: 100%;
+}
+
+.grid2 > div img,button:hover{
+cursor: pointer;
+}
+
+
+@media all and (min-width: 0px) and (max-width: 768px) 
+{
+#others .grid2{
+    grid-template-columns: repeat(1,1fr);
+}
+}
+
+</style>
+<body>
+
+  <div id="others">
+
+    <div class="grid2">
+      <div>
+        <img src="https://ritik73011.github.io/BluFly.com-Clone/homepage/project%20image/insta1.png"/>
+        
+
+      </div>
+
+
+
+      <div>
+        <img src="https://ritik73011.github.io/BluFly.com-Clone/homepage/project%20image/insta2.png"/>
+        
+
+      </div>
+
+      <div>
+        <img src="https://ritik73011.github.io/BluFly.com-Clone/homepage/project%20image/insta3.png"/>
+       
+  
+      </div>
+      <div>
+        <img src="https://ritik73011.github.io/BluFly.com-Clone/homepage/project%20image/insta4.png"/>
+       
+      </div>
+     
+   </div>
+  </div>
+</body>
+</html>
