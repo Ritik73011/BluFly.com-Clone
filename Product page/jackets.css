@@ -90,17 +90,11 @@ label:hover {
        
         grid-template-columns: repeat(2,1fr);
     }
-    #Filter {
-        display: none;
-    }
 }
 @media only screen and (min-width: 0px) and (max-width: 420px) { 
     #Product {
         
         grid-template-columns: repeat(1,1fr);
-    }
-    #Filter {
-        display: none;
     }
 }
 
@@ -170,6 +164,10 @@ px
     background-repeat: no-repeat;
     background-image: url(https://s3.amazonaws.com/static.searchanise.com/snize-product-filters-close.png);
 
+}
+
+h1 {
+    text-align: center;
 }
 
 

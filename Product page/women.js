@@ -1,4 +1,6 @@
-
+function linkPage(){
+    window.location.href="heelPage/jackets.html"
+}
  var WomenProduct=[
     {
         id:1,
@@ -42,10 +44,8 @@
 
     {
         id:4,
-        image_url: 
-        "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/WH7_GLX-873499_Nero_1800x1800.jpg?v=1652415240",
-
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/WH7_GLX-873499_Nero_557f8106-8dbb-4d5c-bc7b-3de48af709f5_large.jpg?v=1654581275",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/5m1re7r6ywA0Sk4vlPuifdRDwFmDIA60-25_540x.jpg?v=1662028537",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/u41N8g1fzPGKwqzKrNqk5jEzWjkpgWKI-25_large.jpg?v=1662028538",
         brandname:"GIORGIO ARMANI",
         name: "EMPORIO ARMANI WOMEN'S DRESS IN BLACK ",
         price: 589,
@@ -71,8 +71,10 @@
 
     {
         id:6,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_1_360x.jpg?v=1662341157",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_2_360x.jpg?v=1662341160",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/7s53UDmAQlkVJLDe5tw425pZBr3gCwgJ-25_360x.jpg?v=1661833851",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/cUnVp3LxOn9V8j4NESwUuKmyWJZeR8il-25_360x.jpg?v=1661833852",
+
+        
         brandname: "SACHIN  BABI",
         name: "WOMEN'S COCKTAIL PARTY  DRESSES",
         price: 298.00,
@@ -83,8 +85,10 @@
 
     {
         id:7,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/5m1re7r6ywA0Sk4vlPuifdRDwFmDIA60-25_540x.jpg?v=1662028537",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/u41N8g1fzPGKwqzKrNqk5jEzWjkpgWKI-25_large.jpg?v=1662028538",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411600003_RLLZ_1_360x.jpg?v=1661665513",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411600003_RLLZ_2_large.jpg?v=1661665514",
+        
+        
         brandname: "BCBGMAXAZRIA",
         name: "WOMENS RUFFLED CORSET EVENING DRESS",
         price:498,
@@ -167,8 +171,9 @@
 
     {
         id:14,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/7s53UDmAQlkVJLDe5tw425pZBr3gCwgJ-25_360x.jpg?v=1661833851",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/cUnVp3LxOn9V8j4NESwUuKmyWJZeR8il-25_360x.jpg?v=1661833852",
+        
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_1_360x.jpg?v=1662341157",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_2_360x.jpg?v=1662341160",
         brandname: "AIDAN BY AIDAN MATTOX",
         name:"WOMENS SUMMER KIMONO SLEEVE MINI DRESS",
         price:33,
@@ -179,15 +184,57 @@
 
     {
         id:15,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/KMwifaILHRpS0XNagh7eDMswjOWl47RD-25_360x.jpg?v=1662360674",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/OcLDmVZlWnnGnvG0Ea3vfNopMLoVMXqs-25_360x.jpg?v=1662360676",
+
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411593403_RLLZ_1_360x.jpg?v=1662432763",
+
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411593403_RLLZ_2_large.jpg?v=1662432765",
+        
         brandname:"AIDAN MATTOX",
         name:"AIDAN MATTOX WOMENS OFF-THE-SHOULDER",
         price:169,
         strikedoffprice:"395",
         save:"Save 57",
 
-    }
+    },
+
+    {
+        id:16,
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411926209_RLLZ_1_360x.jpg?v=1662172343",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411926209_RLLZ_2_large.jpg?v=1662172344",
+        brandname:"AIDAN MATTOX",
+        name:"WOMEN'S COCKTAIL PARTY  DRESSES",
+        price:"500",
+        strikedoffprice:"1500",
+        save:"Save 75",
+
+    },
+
+    {
+
+    id:17,
+    image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411532876_RLLZ_1_360x.jpg?v=1662552541",
+    image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411532876_RLLZ_2_large.jpg?v=1662552543",
+    brandname:"BCBGMAXAZRIA",
+    name:"WOMEN'S COCKTAIL PARTY  DRESSES",
+    price:"300",
+    strikedoffprice:"100",
+    save:"Save 70"
+},
+
+
+{
+
+    id:18,
+    image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411598868_RLLZ_1_b917a0e3-cac6-473e-9713-94297102e9b2_360x.jpg?v=1662535947",
+    image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411598868_RLLZ_2_large.jpg?v=1662535948",
+    brandname:"VINCE",
+    name:"WOMEN'S VACATION DRESSES",
+    price:"300",
+    strikedoffprice:"700",
+    save:"Save 40",
+},
+
+    
     
 ];
 
@@ -200,10 +247,10 @@ function handleFilter(){
     var nameOrder=document.getElementById("BestSelling").value;
         if (nameOrder==="ascending") {
             WomenProduct.sort(function (a,b) {     
-        if(a.brandname > b.brandname) {
+        if(a.name > b.name) {
                 return 1 ;
             }
-        if(a.brandname < b.brandname) {
+        if(a.name < b.name) {
                 return -1;
              } 
             
@@ -214,10 +261,10 @@ function handleFilter(){
     if (nameOrder==="dscending") {
         WomenProduct.sort(function (a,b) {    
 
-       if(a.brandname > b.brandname) {
+       if(a.name > b.name) {
              return -1 ;
          }
-      if(a.brandname < b.brandname) {
+      if(a.name < b.name) {
               return 1;
          } 
 
@@ -493,6 +540,7 @@ function myPage(elem){
     Arr.push(Obj);
     localStorage.setItem("ProductDetails" ,JSON.stringify(Arr));
     Arr=[];
+    
 }
 
 

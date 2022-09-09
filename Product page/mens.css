@@ -5,8 +5,8 @@
 }
 
 #Parent{
-    display: inline-flex;
-    width: 70%;
+    /* display: inline-flex; */
+    width: 75%;
     margin-left: 15%;
     /* border: 1px solid black; */
     display: inline-flex;
@@ -23,6 +23,7 @@
     margin-top: 8px;
     padding: 5px;
     margin-left: 5px;
+    /* color: */
     
 }
 
@@ -31,14 +32,45 @@
     margin-top: -20px;
     margin-left: 5px;
     padding:5px;
+    line-height: 1.6;
+   color: gray
 
     
+}
+
+label:hover {
+    color:#0288d1;
+    /* background-color: gray; */
+
 }
 
 .category {
     border: 1px solid whitesmoke;
     height:auto;
     width:100%;
+    
+}
+
+#select {
+    text-align: end;
+    margin-bottom: 15px;
+    margin-right: 10%; 
+    border: none;
+   
+    
+
+}
+.category:hover {
+    background-color: rgb(238, 236, 236);
+}
+
+#BestSelling {
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    padding :2px;
+    /* margin-right: 10px; */ 
+
 }
 
 
@@ -53,11 +85,25 @@
 } 
 
 
+@media only screen and (min-width: 421px) and (max-width: 720px) { 
+    #Product{
+       
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 420px) { 
+    #Product {
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
 h4+ div {
     display:flex;
     justify-content: space-around;
     width: 100%;
-
+     margin-top: -20px;
     /* margin-top: -20px; */
     margin-bottom: 10px;
 }
@@ -86,9 +132,13 @@ h4+ div {
 }
 #Product div h4{
     margin-top: -20px;
-    color: #67b8e3;
+    color: #0288d1;
+    overflow: hidden;
+    font-size: 14px;
+    text-align: center;
+
 }
-.price_line{
+.sp_line{
     text-decoration: line-through;
 
 }
@@ -101,11 +151,20 @@ h4+ div {
     font-style: italic;
     text-transform: capitalize;
 }
+.snize-product-filters-close{
+    display: inline-block;
+    position: relative;
+    margin-right: 9px;
+    width: 9px;
+    height: 10px;
+    vertical-align: middle;
+    background-size: 9px 10px
+px
+;
+    background-repeat: no-repeat;
+    background-image: url(https://s3.amazonaws.com/static.searchanise.com/snize-product-filters-close.png);
 
-h1 {
-    text-align: center;
 }
-
 
 
 

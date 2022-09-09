@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="jackets.css"/>
+</head>
+<body>
+  <h1>Coats and Jacket</h1>
+
+  <div id="select">
+    <select id="BestSelling" onchange="handleFilter()">
+      <option value="all" >BestSelling</option>
+      <option value="ascending">TITLE:A TO Z</option>
+      <option value="dscending">TITLE:Z TO A</option>
+      <option value="highToLow">PRICE:HIGH TO LOW</option>
+      <option value="low to high">PRICE:LOW TO HIGH</option>
+  
+      </select>
+  </div>
+  
+
+    <div id ="Parent">
+        <div id="Filter">
+            <div class="category">
+
+                <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Collection</h3>
+                <div class="options">
+                  <input type="checkbox" >
+                  <label>Womens</label>
+                  <br>
+                  <input type="checkbox">
+                  <label>Shop All</label>
+                </div>
+                </div>
+  
+                <div class="category">
+                <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Category</h3>
+                <div class="options">
+                  <input type="checkbox" >
+                  <label>Dresses</label>
+                  <br>
+                </div>
+                </div>
+  
+                <div class="category">
+                  <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Subcategory</h3>
+                  <div class="options">
+                    <input type="checkbox" >
+                    <label>WOMEN"S COCKTAIL PARTY 
+                      DRESSES</label><br>
+  
+                      <input type="checkbox" >
+                    <label>WOMEN"S DAY  DRESSES</label><br>
+  
+                    <input type="checkbox" >
+                    <label>WOMEN"S FORMAL PARTY 
+                      DRESSES</label><br>
+  
+                      <input type="checkbox" >
+                    <label>WOMEN"S VACATION DRESSES</label><br>
+                    
+                  </div>
+                  </div>
+  
+                  <div class="category">
+                      <h3 onclick="hide()" class="collection"><i class="fi fi-sr-angle-small-up"></i>BrandName </h3>
+                      <div class="options">
+                        <input type="checkbox" id="Am" onclick="Am()" >
+                        <label>Adrianna Papell</label><br>
+  
+                        <input type="checkbox" >
+                        <label>Adrianna Papell</label><br>
+  
+                        <input type="checkbox" >
+                        <label>Armani</label><br>
+  
+                        <input type="checkbox" >
+                        <label>Balenciaga</label><br>
+                        
+                      </div>
+                      </div>
+  
+                      <div class="category">
+                          <h3 onclick="hide(collection)" class="collection"> <i class="fi fi-sr-angle-small-up"></i>PRICE</h3>
+                          <div class="options">
+                            <input type="checkbox"  onclick="Price164()" >
+                            <label>$99</label><br>
+  
+                            <input type="checkbox"  onclick="Price164()" >
+                            <label>$200</label><br>
+  
+                            <input type="checkbox"  onclick="Price164()" >
+                            <label>$250</label><br>
+  
+                            <input type="checkbox"  onclick="Price164()" >
+                            <label>$350</label><br>
+  
+                            <input type="checkbox"   onclick="Price164()">
+                            <label>$500</label><br>
+                            
+                          </div>
+                          </div>
+  
+                
+               
+              </div>
+            
+          </div>
+          
+          <div id="Product">
+
+          </div>
+          </div>
+
+        
+</body>
+<script src="jackets.js"></script>
+</html>
