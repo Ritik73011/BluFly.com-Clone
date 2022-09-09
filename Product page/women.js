@@ -47,7 +47,7 @@ function linkPage(){
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/5m1re7r6ywA0Sk4vlPuifdRDwFmDIA60-25_540x.jpg?v=1662028537",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/u41N8g1fzPGKwqzKrNqk5jEzWjkpgWKI-25_large.jpg?v=1662028538",
         brandname:"GIORGIO ARMANI",
-        name: "EMPORIO ARMANI WOMEN'S DRESS IN BLACK ",
+        name: "WOMEN'S DAY  DRESSES ",
         price: 589,
         strikedoffprice: 778,
         save:"Save 24",
@@ -77,7 +77,7 @@ function linkPage(){
         
         brandname: "SACHIN  BABI",
         name: "WOMEN'S COCKTAIL PARTY  DRESSES",
-        price: 298.00,
+        price: 350,
         strikedoffprice:"895",
         save:"Save 67",
 
@@ -90,7 +90,7 @@ function linkPage(){
         
         
         brandname: "BCBGMAXAZRIA",
-        name: "WOMENS RUFFLED CORSET EVENING DRESS",
+        name: "WOMEN'S FORMAL PARTY DRESSES",
         price:498,
         strikedoffprice: "600",
         save:"Save 37",
@@ -101,7 +101,7 @@ function linkPage(){
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411554818_RLLZ_1_093feddc-7744-49b9-ad2e-bb454669352c_360x.jpg?v=1661987407",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411554818_RLLZ_2_360x.jpg?v=1661987409",
         brandname: "JOHNNY WAS",
-        name: "JOHNNY WAS DORIS SILK",
+        name: "WOMEN'S DAY  DRESSES",
         price:199,
         strikedoffprice:"365.00",
         save:"Save 45",
@@ -126,8 +126,8 @@ function linkPage(){
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452173629_RLLZ_2_360x.jpg?v=1661744169",
         brandname:"HERVE LEGER",
         name: "WOMEN'S COCKTAIL PARTY  DRESSES",
-        price:899,
-        strikedoffprice:"1,990",
+        price:350,
+        strikedoffprice:990,
         save:"Save 55",
 
     },
@@ -149,7 +149,7 @@ function linkPage(){
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_1_360x.jpg?v=1662472180",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411195597_RLLZ_2_360x.jpg?v=1662165770",
         brandname:"VINCE",
-        name:"VINCE PANELED SLIP DRESS",
+        name:"WOMEN'S DAY  DRESSES",
         price:179,
         strikedoffprice:"445",
         save:"Save 60",
@@ -162,7 +162,7 @@ function linkPage(){
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452261197_RLLZ_2_360x.jpg?v=1662272290",
         brandname:"AIDAN MATTOX",
         name: "WOMEN'S COCKTAIL PARTY  DRESSES",
-        price:166,
+        price:350,
         strikedoffprice:"550",
         save:"Save 70",
 
@@ -175,7 +175,7 @@ function linkPage(){
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_1_360x.jpg?v=1662341157",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1452358018_RLLZ_2_360x.jpg?v=1662341160",
         brandname: "AIDAN BY AIDAN MATTOX",
-        name:"WOMENS SUMMER KIMONO SLEEVE MINI DRESS",
+        name:"WOMEN'S FORMAL PARTY DRESSES",
         price:33,
         strikedoffprice:"175",
         save:"Save 81 ",
@@ -203,7 +203,7 @@ function linkPage(){
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411926209_RLLZ_2_large.jpg?v=1662172344",
         brandname:"AIDAN MATTOX",
         name:"WOMEN'S COCKTAIL PARTY  DRESSES",
-        price:"500",
+        price:500,
         strikedoffprice:"1500",
         save:"Save 75",
 
@@ -293,6 +293,40 @@ if (nameOrder==="low to high") {
     }
 
 
+    function Price164(){
+        var checkbox = document.getElementById("164")
+      var filterData =   WomenProduct.filter(function (elem){
+        console.log(checkbox.checked)
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 164;
+            
+          }
+          return 0;
+        })
+        displayData(filterData);
+       
+    }
+
+    function Price179(){
+        var checkbox = document.getElementById("179")
+      var filterData =   WomenProduct.filter(function (elem){
+        console.log(checkbox.checked)
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 179;
+            
+          }
+          return 0;
+        })
+        displayData(filterData);
+       
+    }
+
     function Price199(){
         var checkbox = document.getElementById("199")
       var filterData =   WomenProduct.filter(function (elem){
@@ -301,45 +335,60 @@ if (nameOrder==="low to high") {
             return 1;
           }
           else{
-           return elem.price === 199
+           return elem.price === 199;
             
           }
-          return 0
-        })
-        displayData(filterData);
-       
-    }
-    function Price164(){
-        var checkbox = document.getElementById("164")
-      var filterData =   WomenProduct.filter(function (elem){
-          if(checkbox.checked == false){
-            return 1;
-          }
-          else{
-           return elem.price === 164
-            
-          }
-          return 0
-        })
-        displayData(filterData);
-       
-    }
-    function Price179(){
-        var checkbox = document.getElementById("179")
-      var filterData =   WomenProduct.filter(function (elem){
-          if(checkbox.checked == false){
-            return 1;
-          }
-          else{
-           return elem.price === 179
-            
-          }
-          return 0
+          return 0;
         })
         displayData(filterData);
        
     }
 
+    function Price350(){
+        var checkbox = document.getElementById("350")
+      var filterData =   WomenProduct.filter(function (elem){
+        console.log(checkbox.checked)
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 350;
+            
+          }
+          return 0;
+        })
+        displayData(filterData);
+       
+    }
+
+    function Price500(){
+        var checkbox = document.getElementById("500")
+      var filterData =   WomenProduct.filter(function (elem){
+        console.log(checkbox.checked)
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.price === 500;
+            
+          }
+          return 0;
+        })
+        displayData(filterData);
+       
+    }
+
+
+
+
+
+
+   
+    
+    
+    
+  
+    
     function Armani(){
         var checkbox = document.getElementById("Armanif")
       var filterData =   WomenProduct.filter(function (elem){
@@ -382,7 +431,6 @@ if (nameOrder==="low to high") {
            return elem.brandname === "BCBGMAXAZRIA";
             
           }
-          return 0
         })
         displayData(filterData);
        
@@ -436,6 +484,40 @@ if (nameOrder==="low to high") {
         displayData(filterData);
        
     }
+
+    function dayDress(){
+        var checkbox = document.getElementById("dayDress")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "WOMEN'S DAY  DRESSES";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function formal(){
+        var checkbox = document.getElementById("formal")
+      var filterData =   WomenProduct.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "WOMEN'S FORMAL PARTY DRESSES";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+
 
 
 

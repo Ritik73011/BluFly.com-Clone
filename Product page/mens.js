@@ -6,9 +6,9 @@ var menJeans=[
 
     image2: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/CZgXqLVVX5rBIE3Gqa0Z264HaFRvT3ST-25_360x.jpg?v=1662470368",
      brandname: "RAG & BONE",
-     name: "FIT 1 MENS LOW RISE EXTRA SLIM SKINNY JEANS",
-     price: "$56.99",
-     strikedoffprice: "$250.00",
+     name: "HUDSON JEANS ETHAN HATCH BIKER SKINNY LEG JEAN",
+     price: 99,
+     strikedoffprice: 250,
      save: "Save 77%" ,
 
     },
@@ -18,9 +18,9 @@ var menJeans=[
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010334180_RLLZ_1_360x.jpg?v=1662378334",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010334180_RLLZ_2_360x.jpg?v=1662378336",
         brandname:"HUDSON JEANS",
-        name:"HUDSON JEANS THE BLINDER ELEMENTS SKINNY BIKER JEAN",
-        price:"$129.99" ,
-        strikedoffprice: "$325.00",
+        name:"HUDSON JEANS ETHAN HATCH BIKER SKINNY LEG JEAN",
+        price:200 ,
+        strikedoffprice: 325.00,
         save: "Save 60%",
 
     },
@@ -32,9 +32,9 @@ var menJeans=[
     "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1932332_360x.jpg?v=1649102790",
 
      brandname:"TRAVIS SCOTT",
-     name: "TRAVIS SCOTT BLUE FROM OUR MINDS DENIM JEANS",
-     price:"$297.50",
-     strikedoffprice: "$350.00",
+     name: "TRAVIS SCOTT DENIM JEANS",
+     price:250,
+     strikedoffprice: 350,
     save:"Save 15%",
 
     },
@@ -45,10 +45,10 @@ var menJeans=[
         "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010286911_RLLZ_1_360x.jpg?v=1662406878",
 
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010286911_RLLZ_2_25a2d8e0-0b28-47ba-827a-67b2df6bd30c_360x.jpg?v=1662406880",
-        brandname:"7 FOR ALL MANKIND",
-        name: "7 FOR ALL MANKIND PAXTYN CLEAN POCKET JEAN ",
-        price: "$99.99",
-        strikedoffprice: "$218.00",
+        brandname:" FOR ALL MANKIND",
+        name: "KANE MENS DENIM STRAIGHT FIT JEANS ",
+        price: 99,
+        strikedoffprice: 218,
         save:"Save 54%",
 
     },
@@ -60,10 +60,10 @@ var menJeans=[
 
        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010070719_RLLZ_2_360x.jpg?v=1661992359",
 
-        brandname: "7 FOR ALL MANKIND",
-        name: "7 FOR ALL MANKIND THE STRAIGHT SQUIGGLE RIVER'S EDGE JEAN",
-        price: "$99.99",
-        strikedoffprice: "$208.00",
+        brandname: " FOR ALL MANKIND",
+        name: "MENS MID-RISE FIT 2 SLIM JEANS",
+        price: 250,
+        strikedoffprice: 208,
         save: "Save 52%",
 
     },
@@ -74,8 +74,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/eZjntdYJeSg7pbtXYtLEDGARHV2HwrUy-25_360x.jpg?v=1662354693",
         brandname: "J BRAND",
         name: "KANE MENS DENIM STRAIGHT FIT JEANS",
-        price:"$99.00",
-        strikedoffprice:"$228.00",
+        price:350,
+        strikedoffprice:228,
         save:"Save 64%",
 
     },
@@ -86,8 +86,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/T0nhFq7FGv5ekqJcFyhPOUhBHU8ikWB2-25_360x.jpg?v=1662371416",
         brandname: "RAG & BONE",
         name: "MENS MID-RISE FIT 2 SLIM JEANS",
-        price:"$71.99",
-        strikedoffprice: "$195.00",
+        price:500,
+        strikedoffprice:195.00,
         save:"Save 63%",
 
     },
@@ -96,9 +96,9 @@ var menJeans=[
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010063000_RLLZ_1_360x.jpg?v=1662333826",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010063000_RLLZ_2_360x.jpg?v=1662333828",
         brandname: "JOE'S JEANS",
-        name: "JOE'S JEANS THE CLASSIC NINOUS STRAIGHT FIT JEAN",
-        price:"$58.99",
-        strikedoffprice:"$185.00",
+        name: "MENS MID-RISE FIT 2 SLIM JEANS",
+        price:200,
+        strikedoffprice:185,
         save:"Save 68%",
 
     },
@@ -109,8 +109,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010949033_RLLZ_2_360x.jpg?v=1662425034",
         brandname:"HUDSON JEANS",
         name:"HUDSON JEANS ETHAN HATCH BIKER SKINNY LEG JEAN",
-        price:"$199.99",
-        strikedoffprice:"$245",
+        price:350,
+        strikedoffprice:245,
         save:"Save 60%",
 
     },
@@ -120,9 +120,9 @@ var menJeans=[
         image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/Xbo1pCGDOLdE3GJ8nP4N7CVMgCj9Y7l2-25_360x.jpg?v=1662259905",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/MtEt4KrzvVnoTlJPclmUYQiT7v916VDn-25_360x.jpg?v=1662259906",
         brandname:"RAG & BONE",
-        name: "FIT 2 MENS SLIM MID RISE SLIM JEANS",
-        price:"$102.99",
-        strikedoffprice:"$275.00",
+        name: "TRAVIS SCOTT  DENIM JEANS",
+        price:99,
+        strikedoffprice:275,
         save:"Save 63%",
 
     },
@@ -133,8 +133,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010444803_RLLZ_2_360x.jpg?v=1661993480",
         brandname:"7 FOR ALL MANKIND",
         name:"7 FOR ALL MANKIND SLIMMY MANZ SLIM LEG JEAN",
-        price:"$79.99",
-        strikedoffprice:"$210.00",
+        price:500,
+        strikedoffprice:210,
         save:"Save 62%",
 
     },
@@ -145,8 +145,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/nyteSz2DiBOsgHSnx2OoxxHzVglczM5N-25_360x.jpg?v=1661756969",
         brandname:"RAG & BONE",
         name:"FIT 2 MENS MID-RISE STRETCH SLIM JEANS",
-        price:"$60.99",
-        strikedoffprice:"$225.00",
+        price:200,
+        strikedoffprice:225,
         save:"Save 73%",
     },
 	
@@ -158,8 +158,8 @@ var menJeans=[
     image2: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010949049_RLLZ_2_360x.jpg?v=1662559029",
      brandname: "RAG & BONE",
      name: "FIT 1 MENS LOW RISE EXTRA SLIM SKINNY JEANS",
-     price: "$56.99",
-     strikedoffprice: "$250.00",
+     price: 99,
+     strikedoffprice: 250,
      save: "Save 77%" ,
 
     },
@@ -170,8 +170,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010949049_RLLZ_2_360x.jpg?v=1662559029",
         brandname:"HUDSON JEANS",
         name:"HUDSON JEANS THE BLINDER ELEMENTS SKINNY BIKER JEAN",
-        price:"$129.99" ,
-        strikedoffprice: "$325.00",
+        price:200 ,
+        strikedoffprice: 325,
         save: "Save 60%",
 
     },
@@ -184,8 +184,8 @@ var menJeans=[
 
      brandname:"TRAVIS SCOTT",
      name: "TRAVIS SCOTT BLUE FROM OUR MINDS DENIM JEANS",
-     price:"$297.50",
-     strikedoffprice: "$350.00",
+     price:297,
+     strikedoffprice: 350,
     save:"Save 15%",
 
     },
@@ -198,8 +198,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010286911_RLLZ_2_25a2d8e0-0b28-47ba-827a-67b2df6bd30c_360x.jpg?v=1662406880",
         brandname:"7 FOR ALL MANKIND",
         name: "7 FOR ALL MANKIND PAXTYN CLEAN POCKET JEAN ",
-        price: "$99.99",
-        strikedoffprice: "$218.00",
+        price:99,
+        strikedoffprice: 218,
         save:"Save 54%",
 
     },
@@ -213,8 +213,8 @@ var menJeans=[
 
         brandname: "7 FOR ALL MANKIND",
         name: "7 FOR ALL MANKIND THE STRAIGHT SQUIGGLE RIVER'S EDGE JEAN",
-        price: "$99.99",
-        strikedoffprice: "$208.00",
+        price: 99,
+        strikedoffprice: 208,
         save: "Save 52%",
 
     },
@@ -225,8 +225,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/eZjntdYJeSg7pbtXYtLEDGARHV2HwrUy-25_360x.jpg?v=1662354693",
         brandname: "J BRAND",
         name: "KANE MENS DENIM STRAIGHT FIT JEANS",
-        price:"$99.00",
-        strikedoffprice:"$228.00",
+        price:99,
+        strikedoffprice:228,
         save:"Save 64%",
 
     },
@@ -237,8 +237,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/T0nhFq7FGv5ekqJcFyhPOUhBHU8ikWB2-25_360x.jpg?v=1662371416",
         brandname: "RAG & BONE",
         name: "MENS MID-RISE FIT 2 SLIM JEANS",
-        price:"$71.99",
-        strikedoffprice: "$195.00",
+        price:71,
+        strikedoffprice: 195,
         save:"Save 63%",
 
     },
@@ -248,8 +248,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010063000_RLLZ_2_360x.jpg?v=1662333828",
         brandname: "JOE'S JEANS",
         name: "JOE'S JEANS THE CLASSIC NINOUS STRAIGHT FIT JEAN",
-        price:"$58.99",
-        strikedoffprice:"$185.00",
+        price:58,
+        strikedoffprice:185,
         save:"Save 68%",
 
     },
@@ -260,8 +260,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010949033_RLLZ_2_360x.jpg?v=1662425034",
         brandname:"HUDSON JEANS",
         name:"HUDSON JEANS ETHAN HATCH BIKER SKINNY LEG JEAN",
-        price:"$199.99",
-        strikedoffprice:"$245",
+        price:199,
+        strikedoffprice:245,
         save:"Save 60%",
 
     },
@@ -272,8 +272,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/MtEt4KrzvVnoTlJPclmUYQiT7v916VDn-25_360x.jpg?v=1662259906",
         brandname:"RAG & BONE",
         name: "FIT 2 MENS SLIM MID RISE SLIM JEANS",
-        price:"$102.99",
-        strikedoffprice:"$275.00",
+        price:102,
+        strikedoffprice:275,
         save:"Save 63%",
 
     },
@@ -284,8 +284,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010444803_RLLZ_2_360x.jpg?v=1661993480",
         brandname:"7 FOR ALL MANKIND",
         name:"7 FOR ALL MANKIND SLIMMY MANZ SLIM LEG JEAN",
-        price:"$79.99",
-        strikedoffprice:"$210.00",
+        price:79,
+        strikedoffprice:210,
         save:"Save 62%",
 
     },
@@ -296,8 +296,8 @@ var menJeans=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/nyteSz2DiBOsgHSnx2OoxxHzVglczM5N-25_360x.jpg?v=1661756969",
         brandname:"RAG & BONE",
         name:"FIT 2 MENS MID-RISE STRETCH SLIM JEANS",
-        price:"$60.99",
-        strikedoffprice:"$225.00",
+        price:60,
+        strikedoffprice:225,
         save:"Save 73%",
     },
 	
@@ -309,7 +309,7 @@ function handleFilter(){
 
     var nameOrder=document.getElementById("BestSelling").value;
         if (nameOrder==="ascending") {
-            WomenProduct.sort(function (a,b) {     
+            menJeans.sort(function (a,b) {     
         if(a.name > b.name) {
                 return 1 ;
             }
@@ -322,7 +322,7 @@ function handleFilter(){
 
     }
     if (nameOrder==="dscending") {
-        WomenProduct.sort(function (a,b) {    
+        menJeans.sort(function (a,b) {    
 
        if(a.name > b.name) {
              return -1 ;
@@ -336,7 +336,7 @@ function handleFilter(){
 
 }
 if (nameOrder==="highToLow") {
-    WomenProduct.sort(function (a,b) {    
+    menJeans.sort(function (a,b) {    
 
     return b.price-a.price;
 });
@@ -344,57 +344,57 @@ if (nameOrder==="highToLow") {
 }
 
 if (nameOrder==="low to high") {
-    WomenProduct.sort(function (a,b) {    
+    menJeans.sort(function (a,b) {    
 
     return a.price-b.price;
 });
 
 }
 
-        displayData(WomenProduct)
-        console.log(WomenProduct)
+        displayData(menJeans)
+      //  console.log(menJeans)
     }
 
 
-    function Price199(){
-        var checkbox = document.getElementById("199")
-      var filterData =   WomenProduct.filter(function (elem){
+    function Price99(){
+        var checkbox = document.getElementById("99")
+      var filterData =   menJeans.filter(function (elem){
         console.log(checkbox.checked)
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.price === 199
+           return elem.price === 99;
             
           }
-          return 0
+          return 0;
         })
         displayData(filterData);
        
     }
-    function Price164(){
-        var checkbox = document.getElementById("164")
-      var filterData =   WomenProduct.filter(function (elem){
+    function Price200(){
+        var checkbox = document.getElementById("200")
+      var filterData =  menJeans.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.price === 164
+           return elem.price === 200;
             
           }
-          return 0
+          return 0;
         })
         displayData(filterData);
        
     }
     function Price179(){
         var checkbox = document.getElementById("179")
-      var filterData =   WomenProduct.filter(function (elem){
+      var filterData =   menJeans.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.price === 179
+           return elem.price === 250
             
           }
           return 0
@@ -403,62 +403,14 @@ if (nameOrder==="low to high") {
        
     }
 
-    function Armani(){
-        var checkbox = document.getElementById("Armanif")
-      var filterData =   WomenProduct.filter(function (elem){
+    function rag(){
+        var checkbox = document.getElementById("rag")
+      var filterData =   menJeans.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.brandname === "EMPORIO ARMANI"
-            
-          }
-          return 0
-        })
-        displayData(filterData);
-       
-    }
-
-    function vince(){
-        var checkbox = document.getElementById("vince")
-      var filterData =   WomenProduct.filter(function (elem){
-          if(checkbox.checked == false){
-            return 1;
-          }
-          else{
-           return elem.brandname === "VINCE"
-            
-          }
-          return 0
-        })
-        displayData(filterData);
-       
-    }
-
-    function bb(){
-        var checkbox = document.getElementById("bb")
-      var filterData =   WomenProduct.filter(function (elem){
-          if(checkbox.checked == false){
-            return 1;
-          }
-          else{
-           return elem.brandname === "BCBGMAXAZRIA";
-            
-          }
-          return 0
-        })
-        displayData(filterData);
-       
-    }
-
-    function Am(){
-        var checkbox = document.getElementById("Am")
-      var filterData =   WomenProduct.filter(function (elem){
-          if(checkbox.checked == false){
-            return 1;
-          }
-          else{
-           return elem.brandname === "AIDAN MATTOX";
+           return elem.brandname === "RAG & BONE"
             
           }
           return 0
@@ -468,14 +420,14 @@ if (nameOrder==="low to high") {
     }
 
 
-    function vacation(){
-        var checkbox = document.getElementById("vacation")
-      var filterData =   WomenProduct.filter(function (elem){
+    function hj(){
+        var checkbox = document.getElementById("hj")
+      var filterData =   menJeans.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.name === "WOMEN'S VACATION DRESSES";
+           return elem.brandname === "HUDSON JEANS"
             
           }
           return 0
@@ -484,14 +436,14 @@ if (nameOrder==="low to high") {
        
     }
 
-    function cocktail(){
-        var checkbox = document.getElementById("cocktail")
-      var filterData =   WomenProduct.filter(function (elem){
+    function ts(){
+        var checkbox = document.getElementById("ts")
+      var filterData =   menJeans.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.name === "WOMEN'S COCKTAIL PARTY  DRESSES";
+           return elem.brandname === "TRAVIS SCOTT";
             
           }
           return 0
@@ -499,6 +451,88 @@ if (nameOrder==="low to high") {
         displayData(filterData);
        
     }
+
+    function mankind(){
+        var checkbox = document.getElementById("mankind")
+      var filterData =   menJeans.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.brandname === "FOR ALL MANKIND"
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+
+    function hudson(){
+        var checkbox = document.getElementById("hudson")
+      var filterData =   menJeans.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "HUDSON JEANS ETHAN HATCH BIKER SKINNY LEG JEAN";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function tsdj(){
+        var checkbox = document.getElementById("tsdj")
+      var filterData =   menJeans.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "TRAVIS SCOTT  DENIM JEANS";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function kane(){
+        var checkbox = document.getElementById("kane")
+      var filterData =   menJeans.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "KANE MENS DENIM STRAIGHT FIT JEANS";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
+    function mmr(){
+        var checkbox = document.getElementById("mmr")
+      var filterData =   menJeans.filter(function (elem){
+          if(checkbox.checked == false){
+            return 1;
+          }
+          else{
+           return elem.name === "MENS MID-RISE FIT 2 SLIM JEANS";
+            
+          }
+          return 0
+        })
+        displayData(filterData);
+       
+    }
+
 
 
 
@@ -563,7 +597,7 @@ document.getElementById("Product").innerText = ""
     sp.setAttribute("class","sp_line");
 
     var save=document.createElement("p");
-    save.innerText=elem.save+"%";
+    save.innerText=elem.save;
      
      save.setAttribute("class", "save_line")
 

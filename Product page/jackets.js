@@ -5,8 +5,8 @@ var coatJacket=[
         image2 :"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1055283485_RLLZ_2_large.jpg?v=1662560040",
         brandname: "BURBERRY",
         name:"BURBERRY DIAMOND QUILT JACKE ",
-        price:"$1,239.99 ",
-        strikedoffprice:"1,550.00",
+        price:99 ,
+        strikedoffprice:155,
         save:"Save 20%",
     },
 
@@ -16,9 +16,9 @@ var coatJacket=[
         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411727649_RLLZ_1_eb986afb-7420-48c8-af94-ca5d41271a92_360x.jpg?v=1660922277",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411727649_RLLZ_2_large.jpg?v=1660922278",
         brandname:"WALTER BAKER",
-        name: "WALTER BAKER MARLEY LEATHER BLAZER",
-        price:"$194.99 ",
-        strikedoffprice:"698.00",
+        name: "WALTER BAKER LEATHER BLAZER",
+        price:200 ,
+        strikedoffprice:698,
         save:"Save 72%",
     },
 
@@ -28,9 +28,9 @@ var coatJacket=[
         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1055315251_RLLZ_black_1_ccc46877-a0b2-40af-b170-7b085519badd_360x.jpg?v=1661957929",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1055315251_RLLZ_black_2_large.jpg?v=1661957930",
         brandname:"BURBERRY",
-        name:"BURBERRY DETACHABLE HOOD TRENCH COAT",
-        price:"$1,079.99",
-        strikedoffprice:"1,350.00",
+        name:"BURBERRY DETACHABLE COAT",
+        price:500,
+        strikedoffprice:1350,
         save:"Save 20%",
     },
 
@@ -39,8 +39,8 @@ var coatJacket=[
         image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411172469_RLLZ_1_360x.jpg?v=1662411384",
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411172469_RLLZ_2_large.jpg?v=1662411386",
         brandname:"JOHNNY WAS",
-        name:"JOHNNY WAS OLIVIA SILK-LINED BLAZER",
-        price:"$138.99 ",
+        name:"JOHNNY  OLIVIA  BLAZER",
+        price:99 ,
         strikedoffprice:"355.00",
         save:"Save 61%",
     },
@@ -51,8 +51,8 @@ var coatJacket=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411285273_RLLZ_2_large.jpg?v=1662286190",
         brandname:"FLEURETTE",
         name:"FLEURETTE WOOL COAT",
-        price:"$535.99",
-        strikedoffprice:"1,495.00",
+        price:250,
+        strikedoffprice:495,
         save:"Save 64%",
     },
 
@@ -62,43 +62,43 @@ var coatJacket=[
         image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411322077_RLLZ_2_large.jpg?v=1662542275",
         brandname:"VINCE",
         name:"VINCE CROPPED LEATHER FLIGHT JACKET",
-        price:"$500.00",
-        strikedoffprice:"700.00",
+        price:500,
+        strikedoffprice:700.00,
         save:"Save 40%",
     },
 
-    // {
-    //     id:1,
-    //     image_url:"",
-    //     image2:"",
-    //     brandname:"",
-    //     name:"",
-    //     price:"",
-    //     sp:"",
-    //     save:"",
-    // },
+    {
+        id:7,
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411258651_RLLZ_1_360x.jpg?v=1662574225",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411258651_RLLZ_2_large.jpg?v=1662574227",
+        brandname:"VINCE",
+        name:"FLEURETTE WOOL COAT",
+        price:500,
+        strikedoffprice:800,
+        save:"Save 40%",
+    },
 
-    // {
-    //     id:1,
-    //     image_url:"",
-    //     image2:"",
-    //     brandname:"",
-    //     name:"",
-    //     price:"",
-    //     sp:"",
-    //     save:"",
-    // },
+    {
+        id:8,
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411212304_RLLZ_1_360x.jpg?v=1661216350",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411212304_RLLZ_2_large.jpg?v=1661216351",
+        brandname:"",
+        name:"BURBERRY DETACHABLE COAT",
+        price:250,
+        strikedoffprice:500,
+        save:"Save 50%",
+    },
 
-    // {
-    //     id:1,
-    //     image_url:"",
-    //     image2:"",
-    //     brandname:"",
-    //     name:"",
-    //     price:"",
-    //     sp:"",
-    //     save:"",
-    // },
+    {
+        id:9,
+        image_url:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411598745_RLLZ_1_7ab7a189-a5ea-4ca3-9b0a-3ccb78c53285_360x.jpg?v=1662575868",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411598745_RLLZ_2_large.jpg?v=1662575869",
+        brandname:"WALTER BAKER",
+        name:"WALTER BAKER LEATHER BLAZER",
+        price:99,
+        strikedoffprice:200,
+        save:"Save 50%",
+    },
 
     // {
     //     id:1,
@@ -228,7 +228,7 @@ if (nameOrder==="low to high") {
             return 1;
           }
           else{
-           return elem.price === 199
+           return elem.price === 99
             
           }
           return 0
@@ -243,7 +243,7 @@ if (nameOrder==="low to high") {
             return 1;
           }
           else{
-           return elem.price === 164
+           return elem.price === 200
             
           }
           return 0
@@ -258,7 +258,7 @@ if (nameOrder==="low to high") {
             return 1;
           }
           else{
-           return elem.price === 179
+           return elem.price === 250
             
           }
           return 0
@@ -267,14 +267,31 @@ if (nameOrder==="low to high") {
        
     }
 
-    function Armani(){
-        var checkbox = document.getElementById("Armanif")
+    function Price500(){
+      var checkbox = document.getElementById("500")
+    var filterData =   coatJacket.filter(function (elem){
+        if(checkbox.checked == false){
+          return 1;
+        }
+        else{
+         return elem.price === 500
+          
+        }
+        return 0
+      })
+      displayData(filterData);
+     
+  }
+
+
+    function blue(){
+        var checkbox = document.getElementById("blue")
       var filterData =   coatJacket.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.brandname === "EMPORIO ARMANI"
+           return elem.brandname === "BURBERRY"
             
           }
           return 0
@@ -283,14 +300,14 @@ if (nameOrder==="low to high") {
        
     }
 
-    function vince(){
-        var checkbox = document.getElementById("vince")
+    function walker(){
+        var checkbox = document.getElementById("walker")
       var filterData =   coatJacket.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.brandname === "VINCE"
+           return elem.brandname === "WALTER BAKER"
             
           }
           return 0
@@ -299,14 +316,14 @@ if (nameOrder==="low to high") {
        
     }
 
-    function bb(){
-        var checkbox = document.getElementById("bb")
+    function johnny(){
+        var checkbox = document.getElementById("johnny")
       var filterData =   coatJacket.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.brandname === "BCBGMAXAZRIA";
+           return elem.brandname === "JOHNNY WAS";
             
           }
           return 0
@@ -315,14 +332,14 @@ if (nameOrder==="low to high") {
        
     }
 
-    function Am(){
-        var checkbox = document.getElementById("Am")
+    function fleu(){
+        var checkbox = document.getElementById("fleu")
       var filterData =   coatJacket.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.brandname === "AIDAN MATTOX";
+           return elem.brandname === "FLEURETTE";
             
           }
           return 0
@@ -332,30 +349,31 @@ if (nameOrder==="low to high") {
     }
 
 
-    function vacation(){
-        var checkbox = document.getElementById("vacation")
-      var filterData =   coatJacket.filter(function (elem){
-          if(checkbox.checked == false){
-            return 1;
-          }
-          else{
-           return elem.name === "WOMEN'S VACATION DRESSES";
-            
-          }
-          return 0
-        })
-        displayData(filterData);
-       
-    }
+    function quilt(){
+      var checkbox = document.getElementById("quilt")
+    var filterData =  coatJacket.filter(function (elem){
+        if(checkbox.checked == false){
+          return 1;
+        }
+        else{
+         return elem.name === "BURBERRY DIAMOND QUILT JACKE ";
+          
+        }
+        return 0
+      })
+      displayData(filterData);
+     
+  }
 
-    function cocktail(){
-        var checkbox = document.getElementById("cocktail")
+
+    function wb(){
+        var checkbox = document.getElementById("wb")
       var filterData =  coatJacket.filter(function (elem){
           if(checkbox.checked == false){
             return 1;
           }
           else{
-           return elem.name === "WOMEN'S COCKTAIL PARTY  DRESSES";
+           return elem.name === "WALTER BAKER LEATHER BLAZER";
             
           }
           return 0
@@ -363,6 +381,39 @@ if (nameOrder==="low to high") {
         displayData(filterData);
        
     }
+
+    function coat(){
+      var checkbox = document.getElementById("coat")
+    var filterData =  coatJacket.filter(function (elem){
+        if(checkbox.checked == false){
+          return 1;
+        }
+        else{
+         return elem.name === "BURBERRY DETACHABLE COAT";
+          
+        }
+        return 0
+      })
+      displayData(filterData);
+     
+  }
+
+
+  function olivia(){
+    var checkbox = document.getElementById("olivia")
+  var filterData =  coatJacket.filter(function (elem){
+      if(checkbox.checked == false){
+        return 1;
+      }
+      else{
+       return elem.name === "BURBERRY DETACHABLE COAT";
+        
+      }
+      return 0
+    })
+    displayData(filterData);
+   
+}
 
 
 
