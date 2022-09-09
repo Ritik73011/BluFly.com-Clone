@@ -21,10 +21,12 @@
                 <a href="">SHOES </a>
                 <a href="">HANDBAGS AND ACCESSORIES</a>
                 <a href="">DESIGNER </a>
-                <a href="">UNDER $50 </a>
-                <a href="">CLEARANCE </a>
-                
-              </div>
+                <a href="">UNDER $50</a>
+                <a href="">CLEARANCE</a> 
+            </div>
+         </div>
+         <div>
+            
          </div>
           <div>
             <img id="logo" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="logo"/>
@@ -35,12 +37,37 @@
                 <a href="#"><i class="fa-sharp fa-2x fa-solid fa-magnifying-glass"></i>&nbsp; <h6>search</h6></a>
             </div>
             <div id="profile">
-                <a href="#"><i class="fa-regular fa-2x fa-user"></i></a>
+                <a href="login.html"><i class="fa-regular fa-2x fa-user"></i></a>
             </div>
             <div id="cart_icon">
-                <a href="#"><i class="fa-solid fa-2x fa-cart-shopping"></i></a>
+                <i class="fa-solid fa-2x fa-cart-shopping"></i>
             </div>
         </div>
+
+        <!--CART LAYOUT HTML-->
+        <div id="mainCart">
+            <div id="cart">
+              <div id="cartUp">
+                <h2 style="font-family: 'Tiemann', serif">CART</h2
+                ><i id="cut" class="fa-solid fa-xmark"></i>
+              </div>
+      
+              <div id="cartBlock">
+                <!-- data wil appand here -->
+                
+              </div>
+      
+              <div id="cartD">
+                <div id="tot">
+                  <p>SUBTOTAL</p> <p id="TotalCart">$215.00</p>
+                </div>
+                <p>Shipping, taxes, and discounts codes calculated at checkout.</p>
+                <button id="checkout">CHECK OUT</button>
+              </div>
+            </div>
+          </div>
+
+          <!--CART LAYOUT DONE-->
     </div>
     <!--header 1 end-->
     <header class="header">
@@ -94,6 +121,7 @@
                                 </div>
                             </div>
                             </li>
+                            
                             <li class="hover-underline-animation" id="shoe"><a class="cat_bar" href="#">SHOES</a>
                                 <div class="mega-box">
                                     <div class="content">
@@ -293,7 +321,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <!-- <li class="hover-underline-animation" id="sunglass"><a href="#">SUNGLASSES</a>
+                            <li class="hover-underline-animation" id="sunglass"><a href="#">SUNGLASSES</a>
                                 <div class="mega-box">
                                     <div class="content">
                                         <div class="mega-img">
@@ -346,7 +374,7 @@
                                         
                                     </div>
                                 </div>
-                            </li> -->
+                            </li>
                             <!-- <li class="hover-underline-animation" id="jewlery"><a href="#">JEWELRY & WATCHES</a>
                                 <div class="mega-box">
                                     <div class="content">
@@ -412,7 +440,7 @@
                                     </div>
                                 </div>
                             </li> -->
-                            <li class="hover-underline-animation" id="under50"><a class="cat_bar" href="#">UNDER $50</a>
+                           <!-- <li class="hover-underline-animation" id="under50"><a class="cat_bar" href="#">UNDER $50</a>
                                 <div class="mega-box">
                                     <div class="content">
                                         
@@ -441,7 +469,7 @@
                                         
                                     </div>
                                 </div>
-                            </li>
+                            </li>-->
                             <!-- <li class="hover-underline-animation" id="beauty"><a href="#">BEAUTY</a>
                                 <div class="mega-box">
                                     <div class="content">
@@ -555,7 +583,25 @@
             }
           }
         }
+
+        document.getElementById("cart_icon").addEventListener("click",function(){
+            document.getElementById("mainCart").style.display="grid";
+            document.getElementById("clear").style.visibility="hidden";
+        });
+
+        document.getElementById("cut").addEventListener("click",function(){
+            document.getElementById("mainCart").style.display="none";
+            document.getElementById("clear").style.visibility="visible";
+        });
+      
+        document.getElementById("logo").addEventListener("click",function(){
+            location.href="index.html";
+        });
         </script>
 </body>
 </html>
-
+<script src="cartblu.js"></script>
+<script
+src="https://kit.fontawesome.com/21bc9a918c.js"
+crossorigin="anonymous"
+></script>
