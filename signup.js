@@ -2,6 +2,13 @@ var form = document.querySelector("form");
 
 var userData = JSON.parse(localStorage.getItem("userData")) || [];
 
+if(userData.length===0){
+
+}
+else{
+  location.href="login.html";
+  document.getElementById("main").style.display = "none";
+}
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   var data = {
@@ -14,9 +21,11 @@ form.addEventListener("submit", function (event) {
     userData.push(data);
     alert("Account Created Succesfully");
     localStorage.setItem("userData",JSON.stringify(userData));
+    location.href="login.html";
+    document.getElementById("main").style.display = "none";
   }
   else{
-    alert("\n"+"\n"+"Account with this Email already exists"+"\n"+"\n"+"\n"+"Please Log In !")
+    alert("\n"+"\n"+"Account with this Email already exists"+"\n"+"\n"+"\n"+"Please Log In !");
   }
 });
 
