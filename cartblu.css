@@ -81,6 +81,7 @@
   #quant{
     margin: 8px;
     display: flex;
+    justify-content: center;
   }
 
   #quant button{
@@ -94,4 +95,13 @@
   #totalBtn{
     padding-left: 16px;
     padding-right: 16px;
+    border: none;
+  color: white;
   }
+  #totalBtn:hover{
+    background-color: rgb(192, 58, 58);
+    cursor: pointer;
+  }
+  #cut:hover{
+    cursor: pointer;
+   }
