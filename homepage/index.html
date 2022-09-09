@@ -12,6 +12,9 @@
 	<script type="text/javascript" src="engine1/jquery.js"></script>
 </head>
 <body>
+    <div id="upHeader">
+
+    </div>
     <div id="parent">
 
 
@@ -73,11 +76,11 @@
 
                 
             <div class="category">
-                <a href=""><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/570941-xja36-9699__1_ff016a81-121c-4e33-881c-a7a3bf8834e8_1080x.jpg?v=1662545539"alt=""></a>
+                <a href="womensdress.html"><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/570941-xja36-9699__1_ff016a81-121c-4e33-881c-a7a3bf8834e8_1080x.jpg?v=1662545539"alt=""></a>
                 <p>DRESSES</p>
             </div>
             <div class="category">
-                <a href=""><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313408432_RLLZ_1_900x.jpg?v=1661656619" alt=""></a>
+                <a href="heel.html"><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1313408432_RLLZ_1_900x.jpg?v=1661656619" alt=""></a>
                 <p>PUMPS AND HEELS</p>
             </div>
             <div class="category">
@@ -101,12 +104,12 @@
                 <p>MEN'S T-SHIRT</p>
             </div>
             <div class="category">
-                <a href=""><img src="	https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411385664_RLLZ_1_900x.jpg?v=1662482054" alt="">
-                </a><p>WOMEN'S TOP</p>
+                <a href="jackets.html"><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411498030_RLLZ_1_360x.jpg?v=1662462537" alt="">
+                </a><p>WOMEN'S JACKET</p>
             </div>
             <div class="category">
-                <a href=""><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/4277323_large.jpg?v=1659113508" alt=""></a>
-                <p>WOMEN'S DENIM</p>
+                <a href="mens.html"><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gLF0BCFv2ZQhHjOHRpEwE2PAcGcIxGPR-25_360x.jpg?v=1662635182" alt=""></a>
+                <p>MEN'S DENIM</p>
             </div>
             <div class="category">
                 <a href=""><img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/pd6460y1_large.jpg?v=1662560692" alt=""></a>
@@ -184,16 +187,16 @@
         </div>
         <div id="insta_page">
             <div class="insta">
-                <img src="project image/insta1.png" alt="">
+                <img src="project image/insta1.png" alt="a">
             </div>
             <div class="insta">
-                <img src="project image/insta2.png" alt="">
+                <img src="project image/insta2.png" alt="aa">
             </div>
             <div class="insta">
-                <img src="project image/insta3.png" alt="">
+                <img src="project image/insta3.png" alt="aaa">
             </div>
             <div class="insta">
-                <img src="project image/insta4.png" alt="">
+                <img src="project image/insta4.png" alt="aaaa">
             </div>
         </div>
         <hr>
@@ -201,18 +204,31 @@
         <!-- 
             Shop more start
          -->
-        <div id="shop_more">
-            <div class="shop_m">
-                <a href=""><img src="project image/shop_denim.png" alt=""></a>
-            </div>
-            <div class="shop_m">
-                <a href=""><img src="project image/jumpsuit.png" alt=""></a>
-            </div>
-            <div id="hide" class="shop_m">
-                <a href=""><img src="project image/Accessories.png" height="480px" alt=""></a>
-            </div>
-        </div>
+        
+         
+         <div id="other"></div>
+         <div id="footer">
+
+       </div>
         
     </div>
 </body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+   
+   $('#footer').load("footer.html");
+
+});
+$(document).ready(function(){
+   
+   $('#other').load("other.html");
+
+});
+$(document).ready(function(){
+   
+   $('#upHeader').load("navbar.html");
+
+});
+</script>
