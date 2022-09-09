@@ -58,4 +58,7 @@ function storeOrderHistory(){
     });
 
     localStorage.setItem("orderHistory",JSON.stringify(arr));
+
+
+    localStorage.removeItem("cartData");
 }
