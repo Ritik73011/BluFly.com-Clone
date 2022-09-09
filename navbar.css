@@ -1,11 +1,12 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 .main{
     display: flex;
-    width: 96%;
+    width: 100%;
     margin: auto;
     margin-top: 16px;
     justify-content:space-between;
@@ -16,7 +17,7 @@
 }
 #logo{
     display: block;
-    margin-left:560px;
+    margin-left: 180px;
     width: 220px;
     height: 35px;
     
@@ -39,7 +40,7 @@ margin-top: 8px;
 }
 .header {
     display: block;
-    width: 100%;
+    width: 99%;
     position: relative;
     z-index: 99;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -166,28 +167,10 @@ header{
     color: #000000;
     
   }
-  
-  
-  .hover-underline-animation:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    background-color: #f19393;
-    transform-origin: bottom right;
-    transition: transform 1.80s ease-out;
-    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
-    
-    margin-top: -20px;
-  }
-  
-  .hover-underline-animation:hover:after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+
+.nav_items li:hover{
+    text-decoration: underline;
+}
 
   /* navbar hover effect ends */
 i{
@@ -453,6 +436,7 @@ marquee:hover{
 
 
 .dropbtn {
+    margin-top: 12px;
     /* background-color: #3498DB; */
     color: white;
     /* padding: 16px; */
@@ -495,3 +479,130 @@ marquee:hover{
 #myDropdown > a:hover{
     color: rgb(202, 48, 48);
 }
+
+ @media all and (min-width: 0px) and (max-width: 455px) 
+{
+    #logo{
+    width: 180px;
+    height: 30px;
+    margin-right: 10px;
+    }
+    #icons div{
+        width: 20px;
+        height: 18px;
+    }
+} 
+
+
+
+
+
+/*CART LAYOUT*/
+
+
+#mainCart {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0; */
+    z-index: 26;
+    display: none;
+    
+  }
+  #cart {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-color: white;
+    width: 360px;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #cartUp {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    border-bottom: solid 1px #00000036;
+  }
+  #cartUp > h2 {
+    font-weight: 500;
+  }
+  #cartUp > * {
+    margin: 25px;
+  }
+  #tot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #cartD > button {
+    width: 100%;
+    border: none;
+    color: white;
+    background: black;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+  #cartD > button:hover{
+    cursor: pointer;
+    background-color: rgb(56, 53, 53);
+  }
+  #cartD > p {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  #cartD {
+    padding-bottom: 32px;
+    margin: 10px;
+  }
+  #cartBlock {
+    overflow-y: scroll;
+    grid-area: 2 / 1 / 6 / 2;
+  }
+  .cartCard {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: solid 1px #00000036;
+  }
+  .cartT {
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: monospace;
+  }
+  #quant{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #quant button{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #cartBlock img{
+    width: 100px;
+    height: 100px;
+  }
+  #totalBtn{
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    color: white;
+    background-color: rgb(31, 28, 28);
+  }
+ 
+  #cut:hover{
+    cursor: pointer;
+   }
