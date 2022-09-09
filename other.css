@@ -1,0 +1,45 @@
+.line{
+
+    height: 1px;
+    background-color: rgb(228, 221, 221);
+    margin-top: 32px;
+    margin-bottom: 32px;
+   }
+
+   #others{
+    margin-top: 50px;
+    width: 97%;
+    margin: auto;
+   
+}
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    gap: 10px;
+}
+.grid2  img{
+width: 100%;
+}
+
+.grid2 button{
+    margin-top: 12px;
+  border:1px solid rgb(228, 221, 221);
+  padding: 8px;
+  background-color: white;
+  margin-bottom: 8px;
+}
+
+.grid2 > div img,button:hover{
+    cursor: pointer;
+}
+
+.grid2 p{
+    text-align: center;
+}
+@media all and (min-width: 0px) and (max-width: 768px) 
+{
+    #others .grid2{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

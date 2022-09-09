@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+.footer{
+    display: flex;
+    margin-left: 40px;
+    gap: 70px;
+    padding-top: 50px;
+    margin-top: 8px;
+}
+
+.flex{
+    display: flex;
+    gap: 70px;
+}
+
+.signup > button{
+    margin-top: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    width: 296px;
+    padding: 10px;
+}
+.signup > input{
+    margin-top: 8px;
+    width: 296px;
+    padding: 8px;
+    color: black;
+}
+
+.imageFlex{
+    margin-top: 24px;
+    display: flex;
+    gap: 32px;
+}
+.imageFlex > img{
+    height: 24px;
+    width: 24px;
+}
+.imageLogo{
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.imageLogo p{
+    text-align: center;
+}
+.imageLogo > img{
+    width: 284px;
+    height: 104px;
+}
+
+.background{
+    background-color: #e6e6e6;
+    margin: 0;
+    padding: 0;
+}
+ .flex div > p:hover{
+    cursor: pointer;
+ }
+
+ .signup > button:hover{
+    cursor: pointer;
+ }
+ .imageFlex > img:hover{
+    cursor: pointer;
+ }
+ .imageLogo > img:hover{
+    cursor: pointer;
+ }
+
+@media all and (min-width: 381px) and (max-width: 768px) 
+{
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+}
+.flex{
+    justify-content: center;
+    text-align: center;
+    margin-right: 16px;
+}
+
+.about>h3{
+    text-align: center;
+}
+.signup h3,p{
+    text-align: center;
+}
+.imageFlex{
+    justify-content: center;
+}
+.signup button{
+    width: 278px;
+}
+
+.signup input{
+    width: 278px;
+}
+}
+
+
+@media all and (min-width: 0px) and (max-width: 380px) 
+{
+
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+        margin-left: 24px;
+        
+    }
+    .flex{
+        justify-content: center;
+        text-align: center;
+        gap: 40px;
+        margin-right: 16px;
+    }
+
+    .about>h3{
+        text-align: center;
+    }
+    .signup h3,p{
+        text-align: center;
+    }
+    .imageFlex{
+        justify-content: center;
+    }
+    .signup button{
+        width: 232px;
+    }
+    
+    .signup input{
+        width: 232px;
+    }
+}
