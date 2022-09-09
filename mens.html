@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men Jeans</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="mens.css"/>
+</head>
+<body>
+    <div id="upHeader">
+
+    </div>
+  <h1 id="mensh1">Men's Jeans & Denim</h1>
+
+  <div id="select">
+    <select id="BestSelling" onchange="handleFilter()">
+      <option value="all" >BestSelling</option>
+      <option value="ascending">TITLE:A TO Z</option>
+      <option value="dscending">TITLE:Z TO A</option>
+      <option value="highToLow">PRICE:HIGH TO LOW</option>
+      <option value="low to high">PRICE:LOW TO HIGH</option>
+  
+      </select>
+  </div>
+  
+
+    <div id ="Parent">
+        <div id="Filter">
+            <div class="category">
+
+                <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Collection</h3>
+                <div class="options">
+                  <input type="checkbox" >
+                  <label>Mens</label>
+                  <br>
+                  <input type="checkbox">
+                  <label>Shop All</label>
+                </div>
+                </div>
+  
+                <div class="category">
+                <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Category</h3>
+                <div class="options">
+                  <input type="checkbox" >
+                  <label>Dresses</label>
+                  <br>
+                </div>
+                </div>
+  
+                <div class="category">
+                  <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Subcategory</h3>
+                  <div class="options" >
+                    <input type="checkbox" id="hudson" onclick="hudson()" >
+                    <label>HUDSON JEAN</label><br>
+  
+                      <input type="checkbox" id="tsdj" onclick="tsdj()" >
+                    <label>TRAVIS SCOTT  DENIM JEANS</label><br>
+  
+                    <input type="checkbox"  id="kane" onclick="kane()">
+                    <label>KANE MENS DENIM STRAIGHT FIT JEANS
+                     </label><br>
+  
+                      <input type="checkbox" id="mmr" onclick="mmr()" >
+                    <label>MENS MID-RISE FIT 2 SLIM JEANS</label><br>
+                    
+                  </div>
+                  </div>
+  
+                  <div class="category">
+                      <h3 onclick="hide()" class="collection"><i class="fi fi-sr-angle-small-up"></i>BrandName </h3>
+                      <div class="options">
+                        <input type="checkbox" id="rag" onclick="rag()" >
+                        <label>RAG & BONE</label><br>
+  
+                        <input type="checkbox" id="hj" onclick="hj()">
+                        <label>HUDSON JEANS</label><br>
+  
+                        <input type="checkbox" id="ts" onclick="ts()">
+                        <label>TRAVIS SCOTT</label><br>
+  
+                        <input type="checkbox"  id="mankind" onclick="mankind()">
+                        <label>FOR ALL MANKIND</label><br>
+                        
+                      </div>
+                      </div>
+  
+                      <div class="category">
+                          <h3 onclick="hide(collection)" class="collection"> <i class="fi fi-sr-angle-small-up"></i>PRICE</h3>
+                          <div class="options">
+                            <input type="checkbox" id ="99" onclick="Price99()" >
+                            <label>$99</label><br>
+  
+                            <input type="checkbox"  id="200" onclick="Price200()" >
+                            <label>$200</label><br>
+  
+                            <input type="checkbox" id="164" onclick="Price164()" >
+                            <label>$250</label><br>
+  
+                            <input type="checkbox"  id="1" onclick="Price164()" >
+                            <label>$350</label><br>
+  
+                            <input type="checkbox"   onclick="Price164()">
+                            <label>$500</label><br>
+                            
+                          </div>
+                          </div>
+  
+                
+               
+              </div>
+            
+          </div>
+          
+          <div id="Product">
+
+          </div>
+          </div>
+
+          <div id="other"></div>
+          <div id="footer">
+
+        </div>
+        
+</body>
+<script src="mens.js"></script>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+   
+   $('#footer').load("footer.html");
+
+});
+$(document).ready(function(){
+   
+   $('#other').load("other.html");
+
+});
+$(document).ready(function(){
+   
+   $('#upHeader').load("navbar.html");
+
+});
+</script>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Jackets</title>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel="stylesheet" href="jackets.css"/>
+</head>
+<body>
+
+    <div id="upHeader">
+
+    </div>
+  <h1>Coats and Jacket</h1>
+
+  <div id="select">
+    <select id="BestSelling" onchange="handleFilter()">
+      <option value="all" >BestSelling</option>
+      <option value="ascending">TITLE:A TO Z</option>
+      <option value="dscending">TITLE:Z TO A</option>
+      <option value="highToLow">PRICE:HIGH TO LOW</option>
+      <option value="low to high">PRICE:LOW TO HIGH</option>
+  
+      </select>
+  </div>
+  
+
+    <div id ="Parent">
+        <div id="Filter">
+            <div class="category">
+
+                <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Collection</h3>
+                <div class="options">
+                  <input type="checkbox" >
+                  <label>Womens</label>
+                  <br>
+                  <input type="checkbox">
+                  <label>Shop All</label>
+                </div>
+                </div>
+  
+                <div class="category">
+                <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Category</h3>
+                <div class="options">
+                  <input type="checkbox" >
+                  <label>Dresses</label>
+                  <br>
+                </div>
+                </div>
+  
+                <div class="category">
+                  <h3 onclick="hide()" class="collection"> <i class="fi fi-sr-angle-small-up"></i>Subcategory</h3>
+                  <div class="options">
+                    <input type="checkbox"  id="quilt" onclick="quilt()" >
+                    <label>BURBERRY DIAMOND QUILT JACKE
+                      </label><br>
+  
+                      <input type="checkbox"  id="wb" onclick="wb()" >
+                    <label>WALTER BAKER LEATHER BLAZER</label><br>
+  
+                    <input type="checkbox"  id="coat" onclick="coat()">
+                    <label>BURBERRY DETACHABLE COAT
+                      </label><br>
+  
+                      <input type="checkbox"  id="olivia" onclick="olivia()">
+                    <label>JOHNNY  OLIVIA  BLAZER</label><br>
+                    
+                  </div>
+                  </div>
+  
+                  <div class="category">
+                      <h3 onclick="hide()" class="collection"><i class="fi fi-sr-angle-small-up"></i>BrandName </h3>
+                      <div class="options">
+                        <input type="checkbox" id="blue" onclick="blue()" >
+                        <label>BURBERRY</label><br>
+  
+                        <input type="checkbox" id="walker" onclick="walker()" >
+                        <label>WALTER BAKER</label><br>
+  
+                        <input type="checkbox" id="johnny" onclick="johnny()">
+                        <label>JOHNNY WAS</label><br>
+  
+                        <input type="checkbox" id="fleu" onclick="fleu()">
+                        <label>FLEURETTE</label><br>
+                        
+                      </div>
+                      </div>
+  
+                      <div class="category">
+                          <h3 onclick="hide(collection)" class="collection"> <i class="fi fi-sr-angle-small-up"></i>PRICE</h3>
+                          <div class="options">
+                            <input type="checkbox" id="199" onclick="Price199()" >
+                            <label>$99</label><br>
+  
+                            <input type="checkbox" id="164" onclick="Price164()" >
+                            <label>$200</label><br>
+  
+                            <input type="checkbox"  id="179"onclick="Price179()" >
+                            <label>$250</label><br>
+  
+                            <input type="checkbox" id="350" onclick="Price164()" >
+                            <label>$350</label><br>
+  
+                            <input type="checkbox" id="500"  onclick="Price500()">
+                            <label>$500</label><br>
+                            
+                          </div>
+                          </div>
+  
+                
+               
+              </div>
+            
+          </div>
+          
+          <div id="Product">
+
+          </div>
+          </div>
+          <div id="other"></div>
+          <div id="footer">
+
+        </div>
+        
+</body>
+<script src="jackets.js"></script>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+   
+   $('#footer').load("footer.html");
+
+});
+$(document).ready(function(){
+   
+   $('#other').load("other.html");
+
+});
+$(document).ready(function(){
+   
+   $('#upHeader').load("navbar.html");
+
+});
+</script>
