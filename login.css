@@ -17,6 +17,7 @@
     margin-top: 20px;
     
 }
+
 h2{
     text-align: center;
     margin-bottom: 20px;
@@ -65,20 +66,36 @@ form+p>a{
     margin-left: 10px;
 }
 
+#left{
+    width: 30%;
+}
+#left #flexDiv{
+    margin-top: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#flexDiv img{
+    width: 80px;
+    height: 80px;
+    border-radius: 32px;
+}
+#flexDiv h4{
+    margin-top: 24px;
+}
+#flexDiv p{
+    margin-top: 24px;
+}
 
 
 
 
 
-@media all and (max-width:720px){
-    body{
-        padding: 0px 100px 20px 100px;
-    }
+@media all and (min-width: 0px) and (max-width: 768px) 
+{
+  
     #main{
-        width: auto;
-        height: auto;
-        padding: 30px 60px 30px 50px;
-        margin: auto;
+        width: 100%;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         border-radius: 20px;
         margin-top: 20px;
