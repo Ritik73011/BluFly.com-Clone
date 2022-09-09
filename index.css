@@ -95,8 +95,6 @@ p{
     text-decoration: none;
 }
 #insta_page{
-    width:96%;
-    margin:auto;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 5px;
