@@ -1,16 +1,22 @@
-var cart = JSON.parse(localStorage.getItem("cart")) || [];
+var cart = JSON.parse(localStorage.getItem("ProductDetails")) || [];
    
  
 //Important
 
-/*
+
 for(var i =0; i<1;i++)
 {
+ document.getElementById("img1").setAttribute("src",cart[i].image);
+ document.getElementById("img2").setAttribute("src",cart[i].secImage);
+ document.getElementById("image").setAttribute("src",cart[i].image);
  document.getElementById("productName").innerText=cart[i].name;
- document.getElementById("sprice").innerText=cart[i].sprice;
- document.getElementById("image").setAttribute("src",cart[i].img);
-}*/
-
+ document.getElementById("sellerName").innerText=cart[i].brandName;
+ document.getElementById("sprice").innerText=cart[i].sp;
+ document.getElementById("ogPrice").innerText=cart[i].price;
+ document.getElementById("save").innerText=cart[i].save;
+ document.getElementById("mimg2").setAttribute("src",cart[i].secImage);
+ document.getElementById("mimg1").setAttribute("src",cart[i].image);
+}
 
 //For Big Screen Start
  var img=document.getElementById("img1").src;
