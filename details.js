@@ -18,6 +18,7 @@ for(var i =0; i<1;i++)
  document.getElementById("mimg1").setAttribute("src",cart[i].image);
 }
 
+
 //For Big Screen Start
  var img=document.getElementById("img1").src;
  var img2=document.getElementById("img2").src;
@@ -92,9 +93,10 @@ document.getElementById("img2").addEventListener("click",function(){
 
  //LOCAL STROAGE START
 
- var data = JSON.parse(localStorage.getItem("cartData")) || [];
+ var data = JSON.parse(localStorage.getItem("cartData"))||[];
  function setProductDetailsToLocalStorage()
  {
+    event.preventDefault();
     radioChecked();
     if(radio===""){
         alert("please select size");
@@ -117,6 +119,8 @@ document.getElementById("img2").addEventListener("click",function(){
         data.push(obj);
 
         localStorage.setItem("cartData",JSON.stringify(data));
+
+        alert("added to cart");
     }
  }
 
