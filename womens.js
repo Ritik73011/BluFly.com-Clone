@@ -55,7 +55,7 @@
     {
         id:5,
         image_url:
-       "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/xPGzJ9v1zb9XhIKiLVHKBakUftQLRmNd-25_ee86b5d2-d5a4-4c35-8e75-1947f9b76a43_1800x1800.jpg?v=1661694914",
+       "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/xPGzJ9v1zb9XhIKiLVHKBakUftQLRmNd-25_360x.jpg?v=1662643228",
 
        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/gxAJWFt5IkUbJBC5oG6z1qWpq4OG8D7E-25_large.jpg?v=1661694915",
 
