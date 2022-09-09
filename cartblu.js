@@ -1,10 +1,10 @@
-
-
-    var cart2= JSON.parse(localStorage.getItem("cartData")) || [];
+var cart2= JSON.parse(localStorage.getItem("cartData")) || [];
 
     var cartBlock = document.getElementById("cartBlock");
 
-     cart2.map(function(ele){
+    getStorageItem();
+    function getStorageItem(){
+     cart2.map(function(ele,indx){
         let div = document.createElement("div");
         div.setAttribute("class", "cartCard");
         let Img = document.createElement("img");
@@ -18,15 +18,11 @@
         let qunt = document.createElement("div");
         qunt.setAttribute("id","quant");
 
-        let plus = document.createElement("button");
-        let totalQ = document.createElement("button");
-        let minus = document.createElement("button");
-        totalQ.setAttribute("id","totalBtn")
-        plus.innerText="+";
-        totalQ.innerText=ele.quant;
-        minus.innerText="-";
+        let remove = document.createElement("button");
+        remove.setAttribute("id","totalBtn")
+        remove.innerText="Size" + ":-" +ele.pSize;
 
-        qunt.append(plus,totalQ,minus);
+        qunt.append(remove);
 
         let priceCart = document.createElement("p");
         priceCart.setAttribute("class", "priceCart");
@@ -36,6 +32,7 @@
         cartBlock.append(div);
 
      });
+    }
     
      var total = [];
      cart2.map(function(ele){
@@ -51,6 +48,22 @@
 
      document.getElementById("TotalCart").innerText="$"+sum;
 
-     document.querySelector(".fa-solid fa-xmark").addEventListener("click",function(){
-        console.log("hii");
-     })
+    
+     if(cart2.length===0){
+        document.getElementById("cartBlock").innerHTML="Cart is empty..."
+     }
+
+     document.getElementById("checkout").addEventListener("click",function(){
+        if(cart2.length===0){
+            alert("Cart is empty please products");
+        }
+        else{
+            location.href="checkout.html";
+        }
+     });
+
+     document.getElementById("cut").addEventListener("click",function(){
+        document.getElementById("cart").style.display = "none";
+        
+     });
+
