@@ -2,11 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-#logo{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
+
 #main{
     width: 25%;
     height: auto;
@@ -86,133 +82,7 @@ form+p>a{
         
     }
 }
-.container1 ul {
-    list-style: none;
-    display: flex;
-    }
-    .container1 ul li {
-        margin-right: 21px;
-    margin-left: -21px;
-    padding: 8px 25px;
-    }
-    .container1 ul li a {
-    color: black;
-    
-    }
-    .container ul li a{
-    color: white;
-    }
-    .mixed{
-        text-align: center;
-        color: red;
-        text-decoration: underline;
-        }
-        .anime{
-            margin: 0;
-            padding: 0;
-            font-family: montserrat, sans-serif;
-            background: black;
-            color: white;
-            
-            width: 100%;
-
-        }
-        .line{
-            text-transform: uppercase;
-            text-align: center;
-            
-            line-height: 20px;
-            }
-            .line:first-child{
-            animation: anim 5s infinite;
-            }
-            @keyframes anim {
-            0%{
-                margin-right: 0;
-            }
-            16%{
-                margin-right: -60px;
-            }
-            33%{
-                margin-right: -120px;
-            }
-            50%{
-                margin-right: 0px;
-            }
-            66%{
-                margin-right: 0px;
-            }
-            82%{
-                margin-right: 0px;
-            }
-            100%{
-                margin-right: 0;
-            }
-            }
-            .line:nth-child(2){
-                animation: anim 5s infinite;
-                }
-                @keyframes anim {
-                0%{
-                    margin-right: 0;
-                }
-                16%{
-                    margin-right: -60px;
-                }
-                33%{
-                    margin-right: -120px;
-                }
-                50%{
-                    margin-right: -180px;
-                }
-                66%{
-                    margin-left: 120px;
-                }
-                82%{
-                    margin-left: 60px;
-                }
-                100%{
-                    margin-left: 0;
-                }
-                }
-                .foto {
-                    width: 100%;
-                    margin: 10px;
-                    padding: 10px;
-                    display: flex;
-                    text-align: center;
-                    justify-content: space-evenly;
-                
-                }
-                .foto img {
-                   
-                    float: left;
-                    width:  400px;
-                    height: 400px;
-                    object-fit: cover;
-                }
-                .bot{
-                    border: 1px solid black;
-                    width: 50%;
-                    color: black;
-                    margin-left: 30%;
-                    background-color: rgba(245, 241, 241, 0.902);
-                }
-                .lphoto{
-                    display: grid;
-                    justify-content: center;
-                    width: 100%;
-                 background-color: gainsboro;
-                 margin-bottom: 30px;
-                 margin-bottom: -50px;
-                 margin-top: 30px;
-                 
-                }
-                .last p {
-                    text-decoration: solid;
-                    color: black;
-                }
-                .last > div > p > a{
-                    color: black;
-                    text-decoration: none;
+                #ss {
+                    color: white;
+                    background-color: black;
                 }

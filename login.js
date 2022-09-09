@@ -1,3 +1,8 @@
+
+  function myFunction() {
+    window.location.href="landing.html";  
+  }
+
 let form = document.querySelector("form")
 let userData = JSON.parse(localStorage.getItem("userData")) || [];
 form.addEventListener("submit",function(){
@@ -19,6 +24,7 @@ form.addEventListener("submit",function(){
 function checkSignin(mail,pass){
     let filtered = userData.filter(function(el){
         return el.email === email && el.password === pass
+        
 
     })
     if(filtered.length>0){
@@ -26,5 +32,7 @@ function checkSignin(mail,pass){
     }
     else{
         return true;
+
     }
+    
 }

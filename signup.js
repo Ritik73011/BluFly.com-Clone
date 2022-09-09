@@ -1,10 +1,10 @@
-let form = document.querySelector("form");
+var form = document.querySelector("form");
 
-let userData = JSON.parse(localStorage.getItem("userData")) || [];
+var userData = JSON.parse(localStorage.getItem("userData")) || [];
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
-  let data = {
+  var data = {
     name: form.name.value,
     email: form.mail.value,
     password: form.pass.value,
@@ -22,7 +22,7 @@ form.addEventListener("submit", function (event) {
 
 
 function checkEmails(email){
-    let filtered = userData.filter(function(element){
+    var filtered = userData.filter(function(element){
         return email === element.email;
     })
     if(filtered.length>0){
