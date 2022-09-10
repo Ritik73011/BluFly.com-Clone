@@ -5,6 +5,8 @@
 
     getStorageItem();
     function getStorageItem(){
+        event.preventDefault();
+        document.getElementById("cartBlock").innerText="";
      cart2.map(function(ele,indx){
         let div = document.createElement("div");
         div.setAttribute("class", "cartCard");
@@ -21,8 +23,13 @@
 
         let remove = document.createElement("button");
         remove.setAttribute("id","totalBtn")
-        remove.innerText="Size" + ":-" +ele.pSize;
+        remove.innerText="remove";
 
+        remove.addEventListener("click",function(){
+            cart2.splice(indx,1);
+            localStorage.setItem("cartData",JSON.stringify(cart2));
+            getStorageItem();
+        });
         qunt.append(remove);
 
         let priceCart = document.createElement("p");
@@ -67,4 +74,3 @@
         document.getElementById("cart").style.display = "none";
         
      });
-
