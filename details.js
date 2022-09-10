@@ -59,6 +59,7 @@ document.getElementById("img2").addEventListener("click",function(){
  //BUTTON CLICK START
  document.getElementById("addCart").addEventListener("click",function(){
     setProductDetailsToLocalStorage();
+     location.reload();
     document.getElementById("mainCart").style.display="grid"; 
     document.getElementById("clear").style.visibility="hidden";
     
