@@ -61,7 +61,7 @@ document.getElementById("img2").addEventListener("click",function(){
     setProductDetailsToLocalStorage();
      location.reload();
     document.getElementById("mainCart").style.display="grid"; 
-    document.getElementById("clear").style.visibility="hidden";
+    document.getElementById("sunglass").style.visibility="hidden";
     
     
  });
