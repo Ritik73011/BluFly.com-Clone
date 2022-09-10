@@ -59,6 +59,10 @@ document.getElementById("img2").addEventListener("click",function(){
  //BUTTON CLICK START
  document.getElementById("addCart").addEventListener("click",function(){
     setProductDetailsToLocalStorage();
+    document.getElementById("mainCart").style.display="grid"; 
+    document.getElementById("clear").style.visibility="hidden";
+    
+    
  });
 
 //BUTTON CLICK END
@@ -119,10 +123,22 @@ document.getElementById("img2").addEventListener("click",function(){
         data.push(obj);
 
         localStorage.setItem("cartData",JSON.stringify(data));
-
-        alert("added to cart");
     }
  }
 
 
  //LOCAL STROAGE END
+
+
+ //CART PAGE JS START
+
+ document.getElementById("cut").addEventListener("click",function(){
+    document.getElementById("mainCart").style.display="none";
+    document.getElementById("clear").style.visibility="visible";
+    location.reload();
+});
+
+
+
+
+//CART PAGE JS END
