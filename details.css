@@ -259,3 +259,120 @@ width: 100%;
         margin: auto;
     }
 }
+
+
+
+
+
+
+
+/*CART LAYOUT*/
+
+
+#mainCart {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* opacity: 0; */
+    z-index: 26;
+    display: none;
+    
+  }
+  #cart {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    background-color: white;
+    width: 360px;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  #cartUp {
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    border-bottom: solid 1px #00000036;
+  }
+  #cartUp > h2 {
+    font-weight: 500;
+  }
+  #cartUp > * {
+    margin: 25px;
+  }
+  #tot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #cartD > button {
+    width: 100%;
+    border: none;
+    color: white;
+    background: black;
+    padding: 16px;
+    font-family: sans-serif;
+  }
+  #cartD > button:hover{
+    cursor: pointer;
+    background-color: rgb(56, 53, 53);
+  }
+  #cartD > p {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+  #cartD {
+    padding-bottom: 32px;
+    margin: 10px;
+  }
+  #cartBlock {
+    overflow-y: scroll;
+    grid-area: 2 / 1 / 6 / 2;
+  }
+  .cartCard {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: solid 1px #00000036;
+  }
+  .cartT {
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-family: monospace;
+  }
+  #quant{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #quant button{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #cartBlock img{
+    width: 100px;
+    height: 100px;
+  }
+  #totalBtn{
+    padding-left: 16px;
+    padding-right: 16px;
+    border: none;
+    color: white;
+    background-color: rgb(31, 28, 28);
+  }
+ 
+  #cut:hover{
+    cursor: pointer;
+   }
+/*CART PAGE DESIGN CSS END*/
