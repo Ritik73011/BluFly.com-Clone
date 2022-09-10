@@ -59,7 +59,7 @@ document.getElementById("img2").addEventListener("click",function(){
  //BUTTON CLICK START
  document.getElementById("addCart").addEventListener("click",function(){
     setProductDetailsToLocalStorage();
-     location.reload();
+    location.reload();
     document.getElementById("mainCart").style.display="grid"; 
     document.getElementById("sunglass").style.visibility="hidden";
     
@@ -135,7 +135,7 @@ document.getElementById("img2").addEventListener("click",function(){
 
  document.getElementById("cut").addEventListener("click",function(){
     document.getElementById("mainCart").style.display="none";
-    document.getElementById("clear").style.visibility="visible";
+    document.getElementById("sunglass").style.visibility="visible";
     location.reload();
 });
 
