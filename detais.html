@@ -4,605 +4,249 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="https://kit.fontawesome.com/592aa98805.js" crossorigin="anonymous"></script>
-    <title>NavBar</title>
-</head>
-<!--   -->
+    <title>Details Page</title>
+    <link rel="stylesheet" href="details.css"/>
+    
 <body>
-    <!-- header 1 start-->
-    <div class="main">
-         <div id="empty">
-            <img src="https://cdn.iconscout.com/icon/free/png-256/menu-bar-lines-option-list-hamburger-web-6-3228.png" class="dropbtn" onclick="myFunction()" alt="" width="50px">
-            <!-- <a   ><i   class="fa-solid fa-2x fa-bars"></i></a> -->
-            <div id="myDropdown" class="dropdown-content">
-                <a href="">CLOTHING</a>
-                <a href="">SHOES </a>
-                <a href="">HANDBAGS AND ACCESSORIES</a>
-                <a href="">DESIGNER </a>
-                <a href="">UNDER $50</a>
-                <a href="">CLEARANCE</a> 
-            </div>
-         </div>
-         <div>
-            
-         </div>
-          <div>
-            <img id="logo" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/BLUEFLY-LOGO-11-20.png?v=1574278243" alt="logo"/>
-          </div>
 
-          <div id="icons">
-            <div id="search">
-                <a href="#"><i class="fa-sharp fa-2x fa-solid fa-magnifying-glass"></i>&nbsp; <h6>search</h6></a>
-            </div>
-            <div id="profile">
-                <a href="login.html"><i class="fa-regular fa-2x fa-user"></i></a>
-            </div>
-            <div id="cart_icon">
-                <i class="fa-solid fa-2x fa-cart-shopping"></i>
-            </div>
-        </div>
+  <!--CART PAGE START-->
+  <div id="mainCart">
+    <div id="cart">
+      <div id="cartUp">
+        <h2 style="font-family: 'Tiemann', serif">CART</h2
+        ><i id="cut" class="fa-solid fa-xmark"></i>
+      </div>
 
-        <!--CART LAYOUT HTML-->
-        <div id="mainCart">
-            <div id="cart">
-              <div id="cartUp">
-                <h2 style="font-family: 'Tiemann', serif">CART</h2
-                ><i id="cut" class="fa-solid fa-xmark"></i>
-              </div>
-      
-              <div id="cartBlock">
-                <!-- data wil appand here -->
-                
-              </div>
-      
-              <div id="cartD">
-                <div id="tot">
-                  <p>SUBTOTAL</p> <p id="TotalCart">$215.00</p>
-                </div>
-                <p>Shipping, taxes, and discounts codes calculated at checkout.</p>
-                <button id="checkout">CHECK OUT</button>
-              </div>
-            </div>
-          </div>
-
-          <!--CART LAYOUT DONE-->
-    </div>
-    <!--header 1 end-->
-    <header class="header">
-        <div class="container">
-            <div class="row">
-                <div class="nav_items">
-                    <nav class="menu">
-                        <ul class="nav-links">
-                            <li class="hover-underline-animation"  id="cloth"><a class="cat_bar" href="#">CLOTHING</a>
-                            <div class="mega-box">
-                                <div class="content">
-                                    <div class="mega-img">
-                                        <h3>CLOTHING</h3>
-                                        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/women.jpg?v=1598516476" alt="img"/>
-                                        <h4>DRESSES</h5>
-                                        <p>UP TO 80% OFF</p>
-                                    </div>
-                                    <div class="mega-row">
-                                        <header class="category">WOMEN'S CLOTHING</header>
-                                        <ul class="mega-links">
-                                            <li>Activewear</li>
-                                            <li>Coats & Jackets</li>
-                                            <li>Dresses</li>
-                                            <li>Jeans & Denim</li>
-                                            <li>Jumpsuits & Rompers</li>
-                                            <li>Lingerie & Hosiery</li>
-                                            <li>Loungewear & Sleepwear</li>
-                                            <li>Pants & Leggings</li>
-                                            <li>Shorts</li>
-                                            <li>Skirts</li>
-                                            <li>Tops & Tees</li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="mega-row">
-                                        <header class="category">MEN'S CLOTHING</header>
-                                        <ul class="mega-links">
-                                            <li>Activewear</li>
-                                            <li>Casual Button-Down Shirts</li>
-                                            <li>Coats & Jackets</li>
-                                            <li>Dress Shirts</li>
-                                            <li>Jeans & Denim</li>
-                                            <li>Pants</li>
-                                            <li>Polo Shirts</li>
-                                            <li>Sport Coats & Blazers</li>
-                                            <li>Shorts</li>
-                                        </ul>
-                                    </div>
-
-                                    
-                                </div>
-                            </div>
-                            </li>
-                            
-                            <li class="hover-underline-animation" id="shoe"><a class="cat_bar" href="#">SHOES</a>
-                                <div class="mega-box">
-                                    <div class="content">
-
-                                        <div class="mega-row">
-                                            <header class="category">WOMEN'S SHOES</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                <li>Boots</li>
-                                                
-                                                <li>Flats</li>
-                                                <li>Espadrilles</li>
-                                                <li>Mules & Slides</li>
-                                                <li>Oxfords & Loafers</li>
-                                                <li>Pumps & Heels</li>
-                                                <li>Sandals</li>
-                                                <li>Slippers</li>
-                                                <li>Sneakers</li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">WOMEN'S DESIGNERS</header>
-                                            <ul class="mega-links">
-                                                <li>Burberry</li>
-                                                <li>Chloe</li>
-                                                <li>Christian Louboutin</li>
-                                                <li>Dolce & Gabbana</li>
-                                                <li>Giuseppe Zanotti</li>
-                                                <li>Gucci</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Prada</li>
-                                                <li>Saint Laurent</li>
-                                                <li>Salvatore Ferragamo</li>
-                                                <li>Valentino</li>
-
-                                            </ul>
-                                        </div>
-
-                                        <div class="mega-row">
-                                            <header class="category">MEN'S SHOES</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                <li>Boots</li>
-                                                <li>Drivers, Loafers & Slip-Ons</li>
-                                                <li>Oxford & Derby Shoes</li>
-                                                <li>Sandals & Flip Flops</li>
-                                               
-                                                <li>Slippers</li>
-                                                <li>Sneakers</li>
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">MEN'S DESIGNERS</header>
-                                            <ul class="mega-links">
-                                                <li>Antonio Maurizi</li>
-                                                <li>Aquatalia</li>
-                                                <li>Balenciaga</li>
-                                                <li>Christian Louboutin</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Cole Haan</li>
-                                                <li>Prada</li>
-                                                <li>Saint Laurent</li>
-                                                <li>Salvatore Ferragamo</li>
-                                                <li>Valentino</li>
-                                            </ul>
-                                        </div>
-
-                                        <div class="mega-img">
-                                            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/SHOES-MEN.jpg?4112" alt="img"/>
-                                            <h4>DRIVERS, LOAFERS & SLIP-ONS</h4>
-                                            <p>UP TO 60% OFF</p>
-                                        </div>
-    
-                                        
-                                    </div>
-                                </div></li>
-                            <li class="hover-underline-animation" id="handbag"><a class="cat_bar" href="#">HANDBAGS & ACCESSORIES</a>
-                                <div class="mega-box">
-                                    <div class="content">
-                                        <div class="mega-img">
-                                            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/handbag2.jpg?v=1598516541" alt="img"/>
-                                            <h4>SATCHELS</h5>
-                                            <p>UP TO 60% OFF</p>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">ALL HANDBAGS</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                <li>Backpacks</li>
-                                                
-                                                <li>Bucket Bag</li>
-                                                <li>Clutches</li>
-                                                <li>Crossbody Bags</li>
-                                                <li>Hobo Bags</li>
-                                                <li>Satchels</li>
-                                                <li>Shoulder Bags</li>
-                                                <li>Tote Bags</li>
-                                                <li>Wallets & Cardholders</li>
-                                            </ul>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">TOP DESIGNERS</header>
-                                            <ul class="mega-links">
-                                                <li>Balenciaga</li>
-                                                <li>Bottega Veneta</li>
-                                                <li>Burberry</li>
-                                                <li>Celinea</li>
-                                                <li>Giuseppe Zanotti</li>
-                                                <li>Gucci</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Prada</li>
-                                                <li>Saint Laurent</li>
-                                              
-                                                <li>Valentino</li>  
-                                                <li>Valentino by Mario Valentino</li>
-
-                                            </ul>
-                                        </div>
-
-                                        <div class="mega-row">
-                                            <header class="category">PRE-OWNED</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                
-                                                <li>Bucket Bag</li>
-                                                <li>Clutches</li>
-                                                <li>Crossbody Bags</li>
-                                                <li>Hobo Bags</li>
-                                                <li>Satchels</li>
-                                                <li>Shoulder Bags</li>
-                                                <li>Tote Bags</li>
-                                                <li>Wallets & Cardholders</li>
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">ACCESSORIES</header>
-                                            <ul class="mega-links">
-                                                <li>Bag Charms, Straps, & Accessories</li>
-                                                <li>Belts</li>
-                                                <li>Cosmetic Bags</li>
-                                                <li>Hats</li>
-                                                <li>Gloves</li>
-                                                <li>Scarves & Wraps</li>
-                                                <li>Optical & Reading Glasses</li>
-                                                <li>Sunglasses</li>
-                                                
-                                            </ul>
-                                        </div>
-    
-                                        
-                                    </div>
-                                </div></li>
-                            <li class="hover-underline-animation" id="design"><a class="cat_bar" href="#">DESIGNERS</a>
-                                <div class="mega-box">
-                                    <div class="content">
-                                        <div class="mega-img">
-                                            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/handbag.jpg?v=1598514963" alt="img"/>
-                                            <h4>GUCCI</h5>
-                                            <p>UP TO 64% OFF</p>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">FEATURED DESIGNERS</header>
-                                            <ul class="mega-links">
-                                                <li>Burberry</li>
-                                                <li>Chloe</li>
-                                                <li>Christian Louboutin</li>
-                                                <li>Dolce & Gabbana</li>
-                                                <li>Giuseppe Zanotti</li>
-                                                <li>Gucci</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Prada</li>
-                                                <li>Saint Laurent</li>
-                                                <li>Salvatore Ferragamo</li>
-                                                <li>Valentino</li>
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header></header>
-                                            <ul class="mega-links">
-                                                <li>Antonio Maurizi</li>
-                                                <li>Aquatalia</li>
-                                                <li>Balenciaga</li>
-                                                <li>Christian Louboutin</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                            </ul>
-                                        </div>
-    
-                                        
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="hover-underline-animation" id="sunglass"><a href="#">SUNGLASSES</a>
-                                <div class="mega-box">
-                                    <div class="content">
-                                        <div class="mega-img">
-                                            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/sunglasses_df9c0648-8d79-459a-ad8d-a7c1869f40db.jpg?v=1598516553" alt="img"/>
-                                            <h4>SUNGLASSES</h5>
-                                            <p>UP TO 80% OFF</p>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">WOMEN'S SUNGLASSES</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                <li>Burberry</li>
-                                                <li>Chloe</li>
-                                                <li>Christian Louboutin</li>
-                                                <li>Dolce & Gabbana</li>
-                                                <li>Giuseppe Zanotti</li>
-                                                <li>Gucci</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Prada</li>
-                                                <li>Saint Laurent</li>
-                                                <li>Salvatore Ferragamo</li>
-                                                <li>Valentino</li>
-                                                <li>Gucci</li>
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">MEN'S SUNGLASSES</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                <li>Burberry</li>
-                                                <li>Chloe</li>
-                                                <li>Christian Louboutin</li>
-                                                <li>Dolce & Gabbana</li>
-                                                <li>Giuseppe Zanotti</li>
-                                                <li>Gucci</li> 
-                                                <li>Christian Louboutin</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Jimmy Choo</li>
-                                                <li>Manolo Blahnik</li>
-                                                <li>Prada</li>
-                                                <li>Saint Laurent</li>
-                                               
-                                               
-                                            </ul>
-                                        </div>
-    
-                                        
-                                    </div>
-                                </div>
-                            </li>
-                            <!-- <li class="hover-underline-animation" id="jewlery"><a href="#">JEWELRY & WATCHES</a>
-                                <div class="mega-box">
-                                    <div class="content">
-                                        <div class="mega-img">
-                                            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/watch.jpg?v=1598517674" alt="img"/>
-                                            <h4>WATCHES</h5>
-                                            <p>UP TO 80% OFF</p>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">JEWELRY</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                <li>Bracelets</li>
-                                                <li>Brooches & Pins</li>
-                                                <li>Earrings</li>
-                                                <li>Necklaces</li>
-                                                <li>Rings</li>
-                                                <li>Watches</li>
-                                                <li>Men's Jewelry</li>
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">TOP DESIGNER WATCHES A-J</header>
-                                            <ul class="mega-links">
-                                                <li>Anne Klein</li>
-                                                <li>Armani</li>
-                                                <li>Bulova</li>
-                                                <li>Bomberg</li>
-                                                <li>Breitling</li>
-                                                <li>Briston</li>
-                                                <li>Calvin Klein</li>
-                                                <li>Cartier</li>
-                                                <li>CCCP</li>
-                                                <li>Certina</li>
-                                                <li>Casio</li>
-                                                <li>Charriol</li>
-                                                <li>Christian Dior</li>
-                                               <li>Purnima Brand</li>
-                                            </ul>
-                                        </div>
-                                        
-                                        <div class="mega-row">
-                                            <header class="category">TOP DESIGNER WATCHES K-Z</header>
-                                            <ul class="mega-links">
-                                                <li>Kate Spade</li>
-                                                <li>Longines</li>
-                                                <li>Marc Jacobs</li>
-                                                <li>Michele</li>
-                                                <li>Nixon</li>
-                                                <li>Briston</li>
-                                                <li>Oceanaut</li>
-                                                <li>Porsche</li>
-                                                <li>Rado</li>
-                                                <li>Red Line</li>
-                                                <li>Roberto Bianci</li>
-                                                <li>Spinnaker</li>
-                                                <li>Timex</li>
-                                                <li>Tissot</li>
-                                            </ul>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </li> -->
-                           <!-- <li class="hover-underline-animation" id="under50"><a class="cat_bar" href="#">UNDER $50</a>
-                                <div class="mega-box">
-                                    <div class="content">
-                                        
-                                        <div class="mega-row">
-                                            <header class="category">SHOP BY PRICEPOINT</header>
-                                            <ul class="mega-links">
-                                                <li>Under $25</li>
-                                                <li>$25-$49.99</li>
-                                                <li>Shop All Under $50</li>
-                                               
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">SHOP BY CATEGORY</header>
-                                            <ul class="mega-links">
-                                                <li>Women</li>
-                                                <li>Men</li>
-                                                <li>Shoes</li>
-                                                <li>Handbags & Accessories</li>
-                                                <li>Jewelry</li>
-                                                <li>Kids</li>
-                                            </ul>
-                                        </div>
-    
-                                        
-                                    </div>
-                                </div>
-                            </li>-->
-                            <!-- <li class="hover-underline-animation" id="beauty"><a href="#">BEAUTY</a>
-                                <div class="mega-box">
-                                    <div class="content">
-                                        
-                                        <div class="mega-row">
-                                            <header class="category">BEAUTY</header>
-                                            <header class="category">FRAGRANCE</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                            
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">SKINCARE</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                
-                                            </ul>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">HAIRCARE</header>
-                                            <ul class="mega-links">
-                                                <li>Shop All</li>
-                                                
-                                            </ul>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                            </li> -->
-                            <li class="hover-underline-animation" id="clear"><a class="cat_bar" href="#">CLEARANCE</a>
-                               
-                                <div class="mega-box">
-                                    <div class="content">
-                                        <div class="mega-img">
-                                            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/clearance_8fa5acf3-7405-41aa-8c98-b0891649c9ab.jpg?v=1598516564" alt="img"/>
-                                            <h4>CLEARANCE</h5>
-                                            <p>70-90% OFF</p>
-                                        </div>
-                                        <div class="mega-row">
-                                            <header class="category">WOMEN'S</header>
-                                            <ul class="mega-links">
-                                                <li>Accessories</li>
-                                                <li>Activewear</li>
-                                                <li>Coats & Jackets</li>
-                                                <li>Dresses</li>
-                                                <li>Handbags</li>
-                                                <li>Jeans & Denim</li>
-                                                <li>Jewelry</li>
-                                                <li>Lingerie & Hosiery</li>
-                                                <li>Pants & Leggings</li>
-                                                <li>Shoes</li>
-                                                <li>Sunglasses</li>
-                                                <li>Swimwear</li>
-                                                <li>Tops</li>
-                                                <li>Watches</li>
-                                            </ul>
-                                        </div>
-    
-                                        <div class="mega-row">
-                                            <header class="category">MEN'S</header>
-                                            <ul class="mega-links">
-                                                <li>Accessories</li>
-                                                <li>Coats & Jackets</li>
-                                                <li>Dress Shirts</li>
-                                                <li>Pants</li>
-                                                <li>Polo Shirts</li>
-                                                <li>Shoes</li>
-                                                <li>Suits & Separates</li>
-                                                <li>Sunglasses</li>
-                                                <li>Sweaters</li>
-                                                <li>T-Shirts</li>
-                                                <li>Watches</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!--header 2 start-->
-    
-    <!--banner end-->
-    <!-- ad banner  start -->
-    <div id="banner">
-        <marquee behavior="scroll" direction="left"><span><pre><b>WELCOME TO BLUEFLY:</b> luxury brands at discounted price                                                                                                                      <b>FREE SHIPPING</b> on order above $99 </pre></span> </marquee>
-    </div>
-    
-    <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("myDropdown").classList.toggle("show");
-        }
+      <div id="cartBlock">
+        <!-- data wil appand here -->
         
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-              var openDropdown = dropdowns[i];
-              if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-              }
-            }
-          }
-        }
+      </div>
 
-        document.getElementById("cart_icon").addEventListener("click",function(){
-            document.getElementById("mainCart").style.display="grid";
-            document.getElementById("clear").style.visibility="hidden";
-        });
+      <div id="cartD">
+        <div id="tot">
+          <p>SUBTOTAL</p> <p id="TotalCart">$215.00</p>
+        </div>
+        <p>Shipping, taxes, and discounts codes calculated at checkout.</p>
+        <button id="checkout">CHECK OUT</button>
+      </div>
+    </div>
+  </div>
 
-        document.getElementById("cut").addEventListener("click",function(){
-            document.getElementById("mainCart").style.display="none";
-            document.getElementById("clear").style.visibility="visible";
-            location.reload();
-        });
-      
-        document.getElementById("logo").addEventListener("click",function(){
-            location.href="index.html";
-        });
-        </script>
+  <!--CART PAGE END-->
+
+
+  <div id="upHeader">
+
+  </div>
+   <div id="main">
+
+     <div class="smallImg">
+        <img id="img1" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_1_360x.jpg?v=1661903598" alt=""/><br/>
+        <img id="img2" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_2_360x.jpg?v=1661903599" alt=""/><br/>
+        <img id="img3" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/vince_women_apparel8192_e34bdf9b-b911-426b-a99a-94fa9b91f404_360x.png?v=1661903600" alt=""/><br/>
+     </div>
+
+     <div class="bigImg">
+       <img id="image" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_1_360x.jpg?v=1661903598" alt=""/>
+     </div>
+
+     <div class="mobileImg">
+      <img id="mimg1" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_1_360x.jpg?v=1661903598" alt=""/><br/>
+      <img id="mimg2" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_2_360x.jpg?v=1661903599" alt=""/><br/>
+      <img id="mimg3" src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/vince_women_apparel8192_e34bdf9b-b911-426b-a99a-94fa9b91f404_360x.png?v=1661903600" alt=""/><br/>
+   </div>
+
+     <div class="details">
+        <h2 id="sellerName">VINCE</h2>
+        <h1 id="productName">FIABA LINEN AND COTTON TROUSERS</h1>
+
+        <div class="priceDiv">
+            <p id="sprice">$345</p>
+            <p id="ogPrice">$149</p>
+            <p id="save">Save 57%</p>
+        </div>
+
+        <p>FREE SHIPPING ON ORDERS OVER $99</p>
+        <h1 id="color">EXTRA 15% OFF IN CART</h1>
+
+        <div class="line"></div>
+         <div>
+            <p>SIZE</p>
+            <p class="sizeGuide">(Please reference sizing images on a product if available; if unavailable please use our size and conversion guide for proper sizing.)</p>
+         </div>
+
+         <div class="sizeBox">
+            
+                <input type="radio" name="radio" id="s"/>
+                <label for="s">
+                 S
+                </label>
+             
+                <input type="radio" name="radio" id="m"/>
+                <label for="m">
+                M
+              </label>
+             
+                <input type="radio" name="radio" id="l"/>
+                <label for="l">
+               L
+              </label>
+            
+                <input type="radio" name="radio" id="xl"/>
+                <label for="xl">
+               XL
+              </label>
+         </div>
+
+         <div class="colorDiv">
+            <p>COLOR~Blue</p>
+            <input type="radio" name="color" checked="checked"/>
+            <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411674856_RLLZ_1_360x.jpg?v=1661903598" alt="h"/>
+        </div>
+
+        <div>
+            <button id="addCart">ADD TO CART</button>
+        </div>
+
+        <div class="productDetails">
+            <p>Usually ships in 1 to 2 business days</p>
+            <ul>
+                <li>About The Brand: Traditional Sportswear With Stand-Out Fabrics And Prints.</li>
+                <li>Carnegie Woven Shirt In White & Orange & Blue With Button-Down Collar And Button Cuffs</li>
+                <li>Approximately 31In From Shoulder To Hem</li>
+                <li>Model Is 6'3 And Is Wearing A Size Medium. Measurements May Vary Slightly By Size.</li>
+                <li>Button Front</li>
+                <li>100% Cotton</li>
+                <li>Machine Wash</li>
+                <li>Imported</li>
+                <li>SKU: BF-103713607-8QB0</li>
+            </ul>
+        </div>
+     </div>
+   </div>
+
+   <div id="extraProduct">
+    <h2>YOU MAY ALSO LIKE</h2>
+    <div class="grid">
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411349805_RLLZ_1_0f0a5f6d-fe6f-4ebb-8584-bae3ab97ccce_360x.jpg?v=1662110812"/>
+        <h3>BURBERRY EMBROIDERED LOGO CHECK OVERSIZED SHIRT</h3>
+
+        <div class="priceDiv">
+          <p id="sprice">$760</p>
+          <p>$649.99</p>
+          <p>Save 14%</p>
+        </div>
+
+      </div>
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010370887_RLLZ_1_360x.jpg?v=1661961336"/>
+        <h3>ALEX MILL WOOL WORK JACKET</h3>
+
+        <div class="priceDiv">
+          <p id="sprice">$215</p>
+          <p>$129.99</p>
+          <p>Save 40%</p>
+        </div>
+
+      </div>
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411339098_RLLZ_1_360x.jpg?v=1661956287"/>
+        <h3>ALICE + OLIVIA FLORENCE GOWN</h3>
+
+        <div class="priceDiv">
+          <p id="sprice">$995</p>
+          <p>$298.99</p>
+          <p>Save 70%</p>
+        </div>
+
+      </div>
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1010375959_RLLZ_1_360x.jpg?v=1662474677"/>
+        <h3>ZADIG & VOLTAIRE VALFRIED VELVET VESTE COAT</h3>
+
+        <div class="priceDiv">
+          <p id="sprice">$638</p>
+          <p>$157.99</p>
+          <p>Save 75%</p>
+        </div>
+
+      </div>
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/products/1411338882_RLLZ_1_360x.jpg?v=1662459091"/>
+        <h3>KAIMILAN MIDI DRESS</h3>
+
+        <div class="priceDiv">
+          <p id="sprice">$122</p>
+          <p>$46.99</p>
+          <p>Save 61%</p>
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+    <div class="line"></div>
+
+  <div id="others">
+
+    <div class="grid2">
+      <div>
+        <img src="denim.jpeg"/>
+        <h2>UP TO 85% OFF THE DENIM SHOP FOR HIM & HER</h2>
+
+       <p>From Hudson Jeans, Joe's Jeans, J Brand & More</p>
+
+       <button>SHOP DENIM</button>
+
+      </div>
+
+
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/shutterstock_1112754335--RESIZED2_540x.jpg?v=1656342120\"/>
+        <h2>UP TO 90% OFF TRENDING JUMPSUITS & ROMPERS</h2>
+
+       <p>Must-Haves From Halston, BCBGMAXAZRIA, Iro & More</p>
+
+       <button>SHOP JUMPSUITS</button>
+
+      </div>
+
+      <div>
+        <img src="https://cdn.shopify.com/s/files/1/0248/3473/6191/files/shutterstock_210297940-resized_for_viewing_720x.jpg?v=1656342603\"/>
+        <h2>UP TO 90% OFF WOMEN'S MUST-HAVE ACCESSORIES</h2>
+  
+       <p>Shop Wallets, Belts, Hats, Sunglasses & More</p>
+  
+       <button>SHOP WOMEN'S ACCESSORIES</button>
+  
+      </div>
+  
+   </div>
+  </div>
+
+  <div id="footer"></div>
 </body>
 </html>
-<script src="cartblu.js"></script>
-<script
-src="https://kit.fontawesome.com/21bc9a918c.js"
-crossorigin="anonymous"
-></script>
+<script src="details.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+   
+   $('#footer').load("footer.html");
+
+});
+  $(document).ready(function(){
+   
+   $('#upHeader').load("navbar.html");
+
+});
+
+
+</script>
