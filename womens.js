@@ -69,8 +69,8 @@
 
     {
         id:6,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/4ytDTDYVYZpWsivDHVC7FVLLlgayPC3C-25_30a7c8e8-1e2a-4074-a2b2-48f455cba894_360x.jpg?v=1662704655",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/6ae60rN83xjLPIp5MTx8j60bT7EejDwo-25_360x.jpg?v=1662704656",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/5m1re7r6ywA0Sk4vlPuifdRDwFmDIA60-25_360x.jpg?v=1662028537",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/mu7hOfF7NYQWfMZ7GyO8etveIRNfdnFE-25_1080x.jpg?v=1662028542",
 
         
         brandname: "SACHIN  BABI",
@@ -96,8 +96,8 @@
     },
     {
         id:8,
-        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/5m1re7r6ywA0Sk4vlPuifdRDwFmDIA60-25_360x.jpg?v=1662028537",
-        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/mu7hOfF7NYQWfMZ7GyO8etveIRNfdnFE-25_360x.jpg?v=1662028542",
+        image_url: "https://cdn.shopify.com/s/files/1/0248/3473/6191/products/TDsIkPgdKkyzk9tobtXQxt512lGJmoHf-25_540x.jpg?v=1662639098",
+        image2:"https://cdn.shopify.com/s/files/1/0248/3473/6191/products/iXoI127CpT0Fo3fRHS0SyYDOTZyJhbqs-25_360x.jpg?v=1662639100",
         brandname: "JOHNNY WAS",
         name: "JOHNNY WAS DORIS SILK",
         price:199,
