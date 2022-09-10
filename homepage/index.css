@@ -51,6 +51,11 @@
     height: 250px;
    
 }
+.category img:hover{
+    width: 207px;
+    height: 257px;
+    transition: 0.5s;
+}
 
 #banner_slider{
     /* height: 400px; */
